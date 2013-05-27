@@ -1,6 +1,7 @@
+--- 
+title: The shape of things to come
+published: true
+layout: default
 ---
-layout: page
-title: "About"
-description: ""
----
-{% include JB/setup %}
+
+about page

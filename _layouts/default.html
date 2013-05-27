@@ -1,6 +1,48 @@
 ---
-theme :
-  name : twitter
+_subnavigation:
+- link:
+  title: Twitter
+  url: https://twitter.com/stephen.bernie
+- link:
+  title: About
+  url: /about.html
 ---
-{% include JB/setup %}
-{% include themes/twitter/default.html %}
+<!doctype html>
+<html>
+    <head>
+        {% include meta.html %}
+    </head>
+    <body>
+        {% include header.html %}
+
+        <div class="sidebar">
+            <nav class="subnav">
+                {% if page.subnavigation %}
+                    <ul>
+                    {% for link in page.subnavigation %}
+                    <li><a href="{{link.url}}">
+                        {{link.title}}
+                    </a></li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+
+                {% if page._subnavigation %}
+                    <ul>
+                    {% for link in page._subnavigation %}
+                    <li><a href="{{link.url}}">
+                        {{link.title}}
+                    </a></li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+            </nav>
+        </div>
+
+        <div class="main">
+            {{ content }}
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

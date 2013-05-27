@@ -1,6 +1,6 @@
-la mémoire et l'espoir
-===
-
+---
+title:la mémoire et lespoir
+layout:post
 ---
 
 I sat on the floor of my room, staring at the packed brown paper boxes and travel suitcase, suddenly realised that the year in this room had past, my days living in Hall of Residence 9, had ended.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
@@ -44,3 +45,9 @@ The master and gh-pages branch do not share the same ancestry. Please treat them
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
+=======
+stephenbernie.github.com
+========================
+
+static Vagus-CN site for mainland China within the Great Wall Firewall
+>>>>>>> 0f92d2f7088472badad2b3e9461305d566f83361

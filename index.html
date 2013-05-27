@@ -8,7 +8,7 @@ layout: default
     <p>{{ post.date|date: "%d.%m.%Y" }}</p>
     {% if post.excerpt %}
         {{ post.excerpt | markdownify }}
-        <p><a href="{{ post.url }}" class="more-link"><span class="readmore">Weiterlesen</span></a></p>
+        <p><a href="{{ post.url }}" class="more-link"><span class="readmore">more</span></a></p>
     {% else %}
         {{ post.content | mark_excerpt }}
     {% endif %}
@@ -19,10 +19,10 @@ layout: default
 <!-- Pagination links -->
 <footer class="pagination">
   {% if paginator.previous_page %}
-    <a href="{% if paginator.previous_page == 1 %}/{%else%}/page{{paginator.previous_page}}{%endif%}" class="previous">Neuere Artikel</a>
+    <a href="{% if paginator.previous_page == 1 %}/{%else%}/page{{paginator.previous_page}}{%endif%}" class="previous">previous</a>
   {% endif %}
-  <span class="page_number ">Seite: {{paginator.page}} von {{paginator.total_pages}}</span>
-  {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}" class="next ">Ältere Artikel</a>
+  <span class="page_number ">page: {{number.page}} of {{paginator.total_pages}}</span>
+  {% if number.next_page %}
+    <a href="/page{{paginator.next_page}}" class="next ">next</a>
   {% endif %}
 </footer>

@@ -10,7 +10,7 @@ description: Vagus- a reborn
 keywords:
 - 
 
-#paginate: 5
+paginate: 5
 
 auto: false
 server: false

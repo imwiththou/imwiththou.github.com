@@ -4,4 +4,4 @@ published: true
 layout: default
 ---
 
-about page
+This is the about page.

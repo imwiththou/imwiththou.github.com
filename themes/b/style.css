@@ -58,7 +58,7 @@ time {
   margin: 0 0 6px 0; }
 
 .posts, article, aside {
-  width: 100%;
+  width: 75%;
   max-width: 500px;
   margin: auto;
   text-align: left; }

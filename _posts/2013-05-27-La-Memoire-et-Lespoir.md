@@ -16,3 +16,5 @@ Packing all the luggage took me two days and a night, tomorrow morning, before t
 That might be the farewell message, next term I will move into another new room and facing another roommate, Paul (as far as I know), we contacted each other before but I am not totally sure whether he will be my roommate. Life is keeping changing from time to time, yes there is nothing called eternity, except for memory and hope.
 
 Oui, la mémoire et l'espoir.
+
+test

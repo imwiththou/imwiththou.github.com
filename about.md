@@ -26,6 +26,8 @@ layout: default
 
 [Hylcn's Saying](http://hylcn.me)
 
-[Ciel's Saying](http://ciel.im)(这货简直就是赤裸裸地在抄上面那位的标题啊……)
+[Ciel's Saying](http://ciel.im)
+
+(这货简直就是赤裸裸地在抄上面那位的标题啊……)
 
 [Tumblr](http://blog.oculus.im)

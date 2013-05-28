@@ -1,7 +1,7 @@
 --- 
-title: about
+title: The shape of things to come
 published: true
 layout: default
 ---
 
-Stephen, 蛋疼的生物工程師一枚，在亞洲的某個邊緣地帶默默地讀著早已缺乏了任何學習意義的本科。總是向往程序員的生活但是可惜智商不夠用，想在生物領域做點實際性的研究無奈這個領域簡直就是艘賊船。閒來無事的時候下國象，寫寫字，看看書或者品品茶。
+This is the about page.

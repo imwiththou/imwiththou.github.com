@@ -1,10 +1,10 @@
-title:            Vagus 枉古思
+title:            Vagus
 description:      A Reborn
 url:              http://cn.oculus.im
 signoff:          Stephen Ong
 facebook_appid:   
 google_analytics: 
-theme:            b
+theme:            scribble
 paginate:         10
 owner:
   name:           ' '

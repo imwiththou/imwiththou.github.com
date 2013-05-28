@@ -18,6 +18,8 @@ links:
  #   url:          /categories
   - name:         About
     url:          /about
+  - name:         Quotes
+    url:          /quote
   - name:         Log
     url:          http://blog.oculus.im
   - name:         Contact

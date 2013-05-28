@@ -4,7 +4,7 @@ url:              http://cn.oculus.im
 signoff:          Stephen Ong
 facebook_appid:   
 google_analytics: 
-theme:            scribble
+theme:            a
 paginate:         10
 owner:
   name:           ' '

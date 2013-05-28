@@ -7,10 +7,10 @@ author:
   url: /about.html
 
 description: Vagus- a reborn
-keywords:
+keywords: reborn
 - 
 
-paginate: 10
+paginate: 7
 
 auto: false
 server: false

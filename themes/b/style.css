@@ -14,7 +14,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
-  font-size: 12px; }
+  font-size: 14px; }
   body > header, body .content, body footer {
     background: #fff;
     margin: 0 auto;
@@ -52,7 +52,7 @@ nav {
 
 time {
   color: #999;
-  font-size: 11px; }
+  font-size: 10px; }
 
 .posts li {
   margin-bottom: 10px; }
@@ -68,7 +68,7 @@ time {
 .categories {
   position: relative; }
   .categories h3 {
-    font-size: 12px;
+    font-size: 10px;
     margin: 0 0 6px;
     text-transform: capitalize; }
   .categories h3:not(:first-of-type):before {

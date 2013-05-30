@@ -21,6 +21,8 @@ body {
     width: 100%;
     padding: 30px;
     text-align: center; }
+  body, body * {
+    -webkit-font-smoothing: antialiased; }
   body .content {
     margin: 1px auto; }
   body > header {

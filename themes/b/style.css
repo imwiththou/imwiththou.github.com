@@ -16,6 +16,9 @@ body {
   background-repeat: no-repeat;
   padding: 20px;
   font-size: 14px; }
+  
+  section.callout.linen { padding-left: 23px; padding-right: 23px; background-image: url(https://devimages.apple.com.edgekey.net/xcode/images/callout-background.png); border-color: #d0d0d0; box-shadow: none; }
+
   body > header, body .content, body footer {
     background: #fff;
     margin: 0 auto;

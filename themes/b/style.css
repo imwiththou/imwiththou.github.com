@@ -31,7 +31,7 @@ body {
     border-top-right-radius: 6px; }
     body > header h1 {
       color: #484949;
-      font-size: 16px; } /*it can only be less than 16px. */
+      font-size: 14px; } /*it can only be less than 16px. */
   body > footer {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px; }

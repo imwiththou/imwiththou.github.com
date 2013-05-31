@@ -5,13 +5,13 @@ body, h1, h2, h3, h4, h5 {
   margin-top: 0; }
 
 body {
- /*background: #f2f2f2;*/
+   background: #f1f1f1;
  /*backgroud-image: url('/themes/b/img/icloud texture 2560x1440.jpeg');*/
-  background-image: -webkit-linear-gradient(-45deg, #f2f2f2, #ededef);
+  /*background-image: -webkit-linear-gradient(-45deg, #f2f2f2, #ededef);
   background-image: -moz-linear-gradient(-45deg, #f2f2f2, #ededef);
   background-image: -ms-linear-gradient(-45deg, #f2f2f2, #ededef);
   background-image: -o-linear-gradient(-45deg, #f2f2f2, #ededef);
-  background-image: linear-gradient(-45deg, #f2f2f2, #ededef);
+  background-image: linear-gradient(-45deg, #f2f2f2, #ededef);*/
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
@@ -24,6 +24,23 @@ body {
     text-align: center; }
   body, body * {
     -webkit-font-smoothing: antialiased; }
+  body .shadow { -webkit-box-shadow:rgba(0,0,0,0.35) 0 1px 3px; -moz-box-shadow:rgba(0,0,0,0.35) 0 1px 3px; box-shadow:rgba(0,0,0,0.35) 0 1px 3px; }
+img.shadow { padding:5px; background:#fff; margin-bottom:2px; *border:1px solid #e2e2e2; _position:relative; }
+
+body .roundedtop { border-radius: 4px 4px 0 0; -webkit-border-top-left-radius:4px; -webkit-border-top-right-radius:4px; -moz-border-radius: 4px 4px 0 0; -o-border-radius: 4px 4px 0 0; -khtml-border-radius: 4px 4px 0 0; }
+body .roundedbottom { border-radius: 0 0 4px 4px; -webkit-border-bottom-left-radius:4px; -webkit-border-bottom-right-radius:4px; -moz-border-radius: 0 0 4px 4px; -o-border-radius: 0 0 4px 4px; -khtml-border-radius: 0 0 4px 4px; }
+body .roundedright { border-radius: 0 4px 4px 0; -webkit-border-top-right-radius:4px; -webkit-border-bottom-right-radius:4px; -moz-border-radius: 0 4px 4px 0; -o-border-radius: 0 4px 4px 0; -khtml-border-radius: 0 4px 4px 0; }
+body .roundedleft { border-radius: 4px 0 0 4px; -webkit-border-top-left-radius:4px; -webkit-border-bottom-left-radius:4px; -moz-border-radius: 4px 0 0 4px; -o-border-radius: 4px 0 0 4px; -khtml-border-radius: 4px 0 0 4px; }
+body .roundedtopleft { border-radius:4px 0 0; -webkit-border-top-left-radius:4px; -moz-border-radius:4px 0 0; -o-border-radius:4px 0 0; -khtml-border-radius:4px 0 0; }
+body .roundedtopright { border-radius: 0 4px 0 0; -webkit-border-top-right-radius:4px; -moz-border-radius:0 4px 0 0; -o-border-radius:0 4px 0 0; -khtml-border-radius: 0 4px 0 0; }
+body .roundedbottomleft { border-radius: 0 0 0 4px; -webkit-border-bottom-left-radius:4px; -moz-border-radius: 0 0 0 4px; -o-border-radius: 0 0 0 4px; -khtml-border-radius: 0 0 0 4px; }
+body .roundedbottomright { border-radius: 0 0 4px 0; -webkit-border-bottom-right-radius:4px; -moz-border-radius: 0 0 4px 0; -o-border-radius: 0 0 4px 0; -khtml-border-radius: 0 0 4px 0; }
+
+
+body .reflection { -webkit-box-reflect:below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(rgba(255,255,255,.3))); }
+
+
+
   body .content {
     margin: 1px auto; }
   body > header {

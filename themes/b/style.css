@@ -91,10 +91,10 @@ abbr { border: 0; }
 .sosumi_features { font-size: 10px !important; line-height:1.5; color:#888; }
 
 h1,h2,h3,h4,h5,h6,strong { color:#000; }
-h1,h2,h3,h4 { font-weight: bold; }
+h1,h2,h3,h4 { font-weight: normal; }
 h2,h3,h4 { line-height: 18px; }
 h1,h2 { margin-bottom: 18px; }
-h1 { font-size: 24px; line-height: 36px; }
+h1 { font-size: 20px; line-height: 36px; }
 h1.text { font-weight: normal; font-size:34px; line-height:42px; margin-top:-8px; margin-bottom:28px; word-spacing:-2px;}
 h2 { font-size: 16px; }
 h3 { font-size: 1em; }
@@ -130,7 +130,7 @@ body.specs #main { font-size: 11px; line-height: 16px; }
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px; }*/
 
-/*nav {
+  nav {
   margin-top: 30px; }
   nav a {
     padding: 8px 13px;
@@ -142,7 +142,7 @@ body.specs #main { font-size: 11px; line-height: 16px; }
     font-size: 11px;
     white-space: nowrap; }
     nav a:last-child {
-      margin-right: 0; }*/
+      margin-right: 0; }
 	  
 /* global header */
 #globalheader { position:relative; width:980px; height:58px; margin:18px auto 0; z-index:999; font-size:12px; _zoom:1; }
@@ -194,130 +194,11 @@ body.specs #main { font-size: 11px; line-height: 16px; }
 #header ul.login li { float:left; }
 #header ul.login li a { margin:0 0 0 1.5em; padding:0 0 0 1.5em; border-left:1px solid #b2b2b2; }
 
-
-/* pretty serach */
-input.prettysearch { width:200px; height: 16px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/prettysearch/searchfield_repeat.png) center top repeat-x; border: 0px; margin: 0; padding: 3px 0 0 0; font: 11px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; }
-.search-wrapper { position: relative; width: 200px; }
-.search-wrapper input.prettysearch { width: 171px; margin-left: 20px; *margin-top:-1px; *margin-right:-2px; *margin-left:10px; }
-.search-wrapper .left, 
-.search-wrapper .right { behavior:url(/assets/scripts/lib/iepngfix.htc); }
-.search-wrapper .left { display: block; position: absolute; left: 0; top: 0; width: 20px; height: 19px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/prettysearch/searchfield_leftcap.png) left top no-repeat; }
-.search-wrapper .right { display: block; position: absolute; right: 0; top: 0; width: 10px; height: 19px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/prettysearch/searchfield_rightcap.png) right top no-repeat; }
-.search-wrapper.empty.blurred input { color: #7e7e7e; }
-.search-wrapper .reset { position: absolute; width: 11px; height: 11px; overflow:hidden; z-index: 1; right: 4px; top: 4px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/prettysearch/close.gif); display: block; cursor: pointer; _cursor:hand; }
-.search-wrapper.empty .reset { display: none; }
-label .prettyplaceholder { display: block; overflow: hidden; text-indent: -9999px; height: 0; width: 0; }
-
-
 /* global footer (legacy) */
 #globalfooter .gf-buy { float: left; width: 60%; margin: 18px 0 9px; }
 #globalfooter .gf-links { float: right; margin: 18px 0 9px; }
 #globalfooter .gf-links a { padding: 0 10px; white-space: nowrap; }
 #globalfooter .gf-links a.last { padding-right: 0; _float: none !important; width: auto !important; }
-
-
-/* global footer */
-#globalfooter { width: 980px; color: #666; font-size: 10px; margin: 18px auto; padding-bottom: 36px; text-align: left !important; }
-#globalfooter a { color: #08c; }
-#globalfooter p { margin-bottom: 1em; }
-#globalfooter p.gf-buy { float: left; width: 52%; margin: 18px 0 9px 3px; }
-#globalfooter ul.piped a { padding: 0 0 0 1.5em; margin-left: 1.5em; border-left: 1px solid #d0d0d0; }
-#globalfooter .gf-links { float: right; margin: 18px 3px 9px 0; }
-#globalfooter .gf-sosumi { clear: both; width: 100%; border-top: 1px solid #ddd; padding-top: 9px; }
-#globalfooter .gf-sosumi a { padding: 0 10px; }
-#globalfooter .gf-sosumi p { float: left; margin-left: 3px; }
-#globalfooter form { margin: 18px 10px; }
-#globalfooter .search-wrapper { margin: 0 auto; }
-#globalfooter .search-wrapper input.prettysearch { margin-left: 10px; }
-#globalfooter ul.piped a.contact_us { padding-right: 1.5em; border-right: 1px solid #d0d0d0; }
-#globalfooter ul.piped a.choose { margin-left: 0; border: 0; }
-#globalfooter ul.piped a.choose img { vertical-align: middle; margin-top: -5px; *position: relative; }
-
-
-/* breadcrumbs */
-#globalfooter ol#breadcrumbs { font-size: 11px; color: #444; background: url(https://devimages.apple.com.edgekey.net/assets/elements/footer/breadcrumb_bg.png) no-repeat; height: 36px; line-height: 34px; margin: 0; list-style: none; font-weight: bold; text-shadow: 0px 1px 1px #fff; }
-#globalfooter ol#breadcrumbs li { float: left; margin: 0; padding: 0 0 0 20px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/footer/breadcrumb_sep_20080909.png) no-repeat; }
-#globalfooter ol#breadcrumbs li a { float: left; color: #444; text-decoration: none; padding: 0 10px; margin-left: -10px; }
-#globalfooter ol#breadcrumbs li a:hover { color: #333; text-decoration: none; }
-#globalfooter ol#breadcrumbs li.home { background: transparent url(https://devimages.apple.com.edgekey.net/assets/elements/footer/breadcrumb_separator.png) no-repeat scroll 100% 50%; margin: 0; padding: 0; }
-#globalfooter ol#breadcrumbs li.home a { margin: 0; padding: 0 10px; }
-
-
-/* localization links */
-#globalfooter #localization-links { float:right; position:relative; top:-30px; }
-#globalfooter #localization-links ul li { display: inline; }
-
-
-/* directory nav */
-#directorynav { font-size: 11px; line-height:14px; padding-top:2px; padding-left:3px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/footer/directory_bg.png) repeat-y; border-top: 1px solid #e5e5e5; float: left; width: 100%; margin-top: -4px; *position: relative; }
-#directorynav .column { width:181px; padding: 9px 0 2px 14px; }
-#directorynav .column.last { width:175px; float: left !important; padding-right: 0; padding-left:16px; }
-#directorynav h3 { color: #666; margin: 0; font-size: 1em; line-height: 14px; font-weight: bold; }
-#directorynav h3.standalone { margin-bottom: 18px; }
-#directorynav a { line-height: 18px; color: #666; text-decoration: none; display: block; zoom: 1; }
-#directorynav h3.standalone a:link,
-#directorynav h3.standalone a:visited { color: #444; }
-#directorynav a:hover { color: #333 !important; text-decoration: none !important; }
-#directorynav .capbottom { clear: both; position: relative; top: 5px; _top: 12px; height: 5px; width: 980px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/footer/directory_capbg.png) no-repeat; }
-#directorynav ul { margin-bottom: 0; padding-bottom: 9px; }
-#directorynav.mac #dn-cola { width: 120px; }
-#directorynav.mac #dn-colb { width: 115px; }
-#directorynav.mac #dn-cold { width: 115px; }
-#directorynav.mac #dn-colg { width: 130px; }
-#directorynav.ipod .column,
-#directorynav.ipodtouch .column,
-#directorynav.ipad .column,
-#directorynav.iphone .column,
-#directorynav.itunes .column { width: 190px; padding: 9px 0 0 54px; }
-
-
-/* breadory */
-#breadory { border: 1px solid #ddd; width: 978px; margin: 0 auto; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
-#globalfooter #breadory ol#breadcrumbs { background: none; clear: both; padding: 0; float: none; height: 3em; line-height: 3em; font-size: 11px; color: #666; margin: 0; list-style: none; font-weight: bold; text-shadow: 0px 1px 1px #fff; }
-#breadory ol#breadcrumbs li { background: none; float: left; margin: 0; padding: 0 0 0 1em; }
-#breadory ol#breadcrumbs li a { float: left; color: #666; text-decoration: none; padding: 0 1.75em 0 0; margin-left: 0px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/footer/breadcrumb_separator.png) no-repeat 100% 50%; }
-#breadory ol#breadcrumbs li a:hover { color: #333; text-decoration: none; }
-#breadory ol#breadcrumbs li.home { background: transparent url(https://devimages.apple.com.edgekey.net/assets/elements/footer/breadcrumb_separator.png) no-repeat scroll 100% 50%; margin: 0; padding: 0; }
-#breadory ol#breadcrumbs li.home a { background: url(https://devimages.apple.com.edgekey.net/assets/elements/footer/breadcrumb_home.png) no-repeat 1.25em 50%; margin: 0; padding: 0px 23px 0px 37px; }
-#breadory ol#breadcrumbs li.home a:hover { background-image: url(https://devimages.apple.com.edgekey.net/assets/elements/footer/breadcrumb_home_over.png); }
-
-#breadory #directorynav { background: none; clear: both; float: none; margin-top: 0; }
-#breadory #directorynav .capbottom { height: 0; font-size: 1px; _display: none; }
-
-
-/* productheader */
-#productheader { padding: 1em 0 0.2em; overflow: hidden; width: 980px; margin: 0 auto; *position: relative; *height: 39px; }
-#productheader h1, 
-#productheader h2 { height: 32px; line-height: 32px; display: inline; float: left; margin: 1px 0 6px 8px; padding: 0; margin-bottom: 6px !important; }
-#productheader h1 a, 
-#productheader h2 a { line-height: 32px; background-position: 0 0; background-repeat: no-repeat; color: #888; display: block; font-weight: normal; height: 32px; outline: none; text-decoration: none; text-indent: -9999px; *position: relative; }
-body#overview #productheader h1 a, 
-body#overview #productheader h2 a { cursor: default; }
-
-#productheader ul { display: inline; float: right; margin: 0; }
-#productheader ul li { display: inline; }
-#productheader ul li a { color: #333; float: left !important; margin-top: 1em; margin-left: 30px; margin-right: 8px; padding: 0; text-decoration: none; }
-#productheader ul li a:hover { color: #08c; }
-
-
-/* promofooter */
-#promofooter { width:984px; margin:12px auto 0; padding-top:17px; background:url(https://devimages.apple.com.edgekey.net/assets/elements/layout/promo_top.png) no-repeat 0 0; }
-#promofooter #promos { width:980px; margin-bottom:0; padding:0 2px 4px; background:url(https://devimages.apple.com.edgekey.net/assets/elements/layout/promo_bottom.png) no-repeat 0 100%; }
-#promofooter #promos:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
-#promofooter #promos li.promo { float:left; width:244px; padding-right:1px; min-height:175px; _height:175px; position:relative; }
-#promofooter #promos li.promo a { color:#777; }
-#promofooter #promos li.promo:hover a { color:#08c; text-decoration:none; }
-#promofooter #promos li.promo h3 { margin:0 12px 3px 19px; font-size:12px; line-height:1.4em; }
-#promofooter #promos li.promo p { margin:0 12px 0 19px; font-size:11px; line-height:1.4em; color:#777; }
-#promofooter #promos li.promo p a { display:block; }
-#promofooter #promos li.promo a.image { bottom:0; height:190px; position:absolute; z-index:100; }
-#promofooter #promos li.promo img { margin-top:10px; display:block; }
-
-/* for promo tile without image and has specific link. these tiles have .padded already */
-#promofooter #promos li.promo .padded { display:block; }
-#promofooter #promos li.promo .padded a { display:inline-block; margin:8px 0; color:#08c; }
-#promofooter #promos li.promo .padded a:hover { text-decoration:none; }
-
 
 .description {
   color: #999; }

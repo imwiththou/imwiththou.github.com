@@ -6,12 +6,12 @@ body, h1, h2, h3, h4, h5 {
 
 body {
  /*background: #f2f2f2;*/
- backgroud-image: url('/themes/b/img/icloud texture 2560x1440.jpeg');
- /* background-image: -webkit-linear-gradient(-45deg, #dedade, #ededef, #ccdfee, #edefed);
-  background-image: -moz-linear-gradient(-45deg, #dedade, #ededef, #ccdfee, #edefed);
-  background-image: -ms-linear-gradient(-45deg, #dedade, #ededef, #ccdfee, #edefed);
-  background-image: -o-linear-gradient(-45deg, #dedade, #ededef, #ccdfee, #edefed);
-  background-image: linear-gradient(-45deg, #dedade, #ededef, #ccdfee, #edefed);*/
+ /*backgroud-image: url('/themes/b/img/icloud texture 2560x1440.jpeg');*/
+  background-image: -webkit-linear-gradient(-45deg, #dedade, #ededef);
+  background-image: -moz-linear-gradient(-45deg, #dedade, #ededef);
+  background-image: -ms-linear-gradient(-45deg, #dedade, #ededef);
+  background-image: -o-linear-gradient(-45deg, #dedade, #ededef);
+  background-image: linear-gradient(-45deg, #dedade, #ededef);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;

@@ -20,6 +20,8 @@ layout: default
 
 受维特根斯坦的逻辑哲学的影响而目前沦为不婚族。
 <br></br>
+---
+
 
 友链如下
 
@@ -27,6 +29,5 @@ layout: default
 
 [Ciel's Saying](http://ciel.im)
 
-(这货简直就是赤裸裸地在抄上面那位的标题啊……)
-
 [Tumblr](http://blog.oculus.im)
+

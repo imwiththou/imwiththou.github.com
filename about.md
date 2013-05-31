@@ -6,7 +6,7 @@ layout: default
 
 川上君, 
 
-蛋疼的生物工程師一枚，
+蛋疼的生物工程小學渣一枚，
 
 在亞洲的某個[邊緣地帶](http://www.ntu.edu.sg)默默地讀著早已缺乏了任何求知精神的[本科](http://www.scbe.ntu.edu.sg)。
 
@@ -19,10 +19,9 @@ layout: default
 生活因为有那么几个好基友而显得勉强不寂寞，
 
 受维特根斯坦的逻辑哲学的影响而目前沦为不婚族。
+<br></br>
 
-[微博](http://weibo.com/u/2329688014)  [人人](http://www.renren.com/333023376/profile)
-
-友链
+友链如下
 
 [Hylcn's Saying](http://hylcn.me)
 

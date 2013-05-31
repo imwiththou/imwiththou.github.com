@@ -64,28 +64,28 @@ section.callout.linen { padding-left: 23px; padding-right: 23px; background-imag
 /* inset callout */
 .callout.inset { border:1px solid #dcdcdc; border-width:2px 1px 1px; background:#e7e9ef url(https://devimages.apple.com.edgekey.net/assets/elements/layout/message_bg.png) repeat-x 0 0; box-shadow:none; -webkit-box-shadow:none; -moz-box-shadow:none; -khtml-box-shadow:none; -o-box-shadow:none; }
 
-a { color: #c0c0c0; text-transform: uppercase;
+a { color: #023; text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 11px;
     white-space: nowrap;}
 a:link, a:visited, a:active { text-decoration: none; }
-a:hover { text-decoration: underline; }
+a:hover { text-decoration: none; }
 a.block { display: block; cursor: pointer; }
 a.block span,
-a.block em { color:#c0c0c0; cursor: pointer; }
+a.block em { color:#023; cursor: pointer; }
 a.block:hover { text-decoration: none; }
 a.block:hover span,
-a.block:hover em { color: #c0c0c0; text-decoration: none; }
+a.block:hover em { color: #023; text-decoration: none; }
 a.more, em.more, span.more { white-space: nowrap; padding-right: 10px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; cursor: pointer; zoom: 1; }
 a.external, em.external, span.external { white-space: nowrap; padding-right: 15px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/icons/external10x10.gif) no-repeat 100% 49%; cursor: pointer; zoom: 1; }
 a[rel="external"] { white-space: nowrap; padding-right: 15px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/icons/external10x10.gif) no-repeat 100% 49%; cursor: pointer; zoom: 1; }
-em.more, span.more, em.external, span.external { color:#08c; font-style: normal; cursor: pointer; }
+em.more, span.more, em.external, span.external { color:#023; font-style: normal; cursor: pointer; }
 .nowrap { white-space:nowrap; }
 strong, b { font-weight: bold; }
 em, i, cite { font-style: italic; }
 sup { padding-left: 1px; font-size: 10px !important; font-weight: normal !important; vertical-align: baseline; position: relative; bottom: 0.33em; _position: static !important; }
 sup, sup a { color:#666; }
-sup a:hover { color:#c0c0c0; text-decoration:none; }
+sup a:hover { color:#023; text-decoration:none; }
 abbr { border: 0; }
 .sosumi { font-size: 10px !important; line-height:1.5; color:#888; }
 .sosumi_features { font-size: 10px !important; line-height:1.5; color:#888; }
@@ -157,7 +157,7 @@ body.specs #main { font-size: 11px; line-height: 16px; }
 #globalheader ul#gh-nav { position:absolute; right:240px; top:1px;  margin:0; }
 #globalheader ul#gh-nav li { display:inline; float:left; margin:0 0 0 2.0em; }
 #globalheader ul#gh-nav li a { display:block; color:#333; text-decoration:none; padding:.3em 0 .3em 5px; text-shadow: 0px 1px 1px #fff; line-height:18px; }
-#globalheader ul#gh-nav li a:hover { color:#08c; }
+#globalheader ul#gh-nav li a:hover { color:#023; }
 #globalheader ul#gh-nav li.menu { position:relative; }
 #globalheader ul#gh-nav li.menu a { margin-right:-3px; padding-left:7px; outline:none; -moz-outline:none; *margin-right:0; }
 #globalheader ul#gh-nav li.menu a span { padding-right:.4em; }
@@ -316,7 +316,7 @@ body#overview #productheader h2 a { cursor: default; }
 /* for promo tile without image and has specific link. these tiles have .padded already */
 #promofooter #promos li.promo .padded { display:block; }
 #promofooter #promos li.promo .padded a { display:inline-block; margin:8px 0; color:#08c; }
-#promofooter #promos li.promo .padded a:hover { text-decoration:underline; }
+#promofooter #promos li.promo .padded a:hover { text-decoration:none; }
 
 
 .description {

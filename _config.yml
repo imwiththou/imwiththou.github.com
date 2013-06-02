@@ -24,8 +24,8 @@ links:
  # url:          http://blog.oculus.im
   - name:         Contact
     url:          mailto:imwiththou@gmail.com
- # - name:         GitHub
- #   url:          http://github.com/stephenbernie
+  - name:         RSS
+    url:          /RSS.xml
 
 pygments:         true
 permalink:        pretty

@@ -1,75 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="US-ASCII"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>RSS</title>
-<link>http://cn.oculus.im</link>
 <description>Vagus: A Reborn</description>
-<atom:link href="http://cn.oculus.im" rel="self" type="application/rss+xml" />
+<link>http://cn.oculus.im</link>
 
 <item>
 	<title>最簡單的多層神經網絡模型構建</title>
 	<!--<description></description>-->
-	<link>http://cn.oculus.im/2013/06/03/ANN1/</link>
+	<guid>http://cn.oculus.im/2013/06/03/ANN1/</guid>
 </item>	
 
 <item>
 	<title>大學應該幹些什麼</title>
-	<link>http://cn.oculus.im/2013/05/30/what-should-we-do-in-university/</link>
+	<guid>http://cn.oculus.im/2013/05/30/what-should-we-do-in-university/</guid>
 </item>
 
 <item>
 	<title>无题</title>
-	<link>http://cn.oculus.im/2013/05/29/a-bit-thoughts/</link>
+	<guid>http://cn.oculus.im/2013/05/29/a-bit-thoughts/</guid>
 </item>
 
 <item>
 	<title>一切就绪</title>
-	<link>http://cn.oculus.im/2013/05/28/everything-is-ready/</link>
+	<guid>http://cn.oculus.im/2013/05/28/everything-is-ready/</guid>
 </item>
 
 <item>
 	<title>祭先祖文</title>
-	<link>http://cn.oculus.im/2013/05/20/jixianzuwen/</title>
+	<guid>http://cn.oculus.im/2013/05/20/jixianzuwen/</guid>
 </item>
 
 <item>
 	<title>關於生物開源的構想</title>
-	<link>http://cn.oculus.im/2013/05/13/bio-open-source/</link>
+	<guid>http://cn.oculus.im/2013/05/13/bio-open-source/</guid>
 </item>
 
 <item>
 	<title>大一就這麼結束了</title>
-	<link>http://cn.oculus.im/2013/05/09/there-goes-the-year-one/</link>
+	<guid>http://cn.oculus.im/2013/05/09/there-goes-the-year-one/</guid>
 </item>
 
 <item>
 	<title>閒來看花風不止，塵起思賢溪若流。</title>
-	<link>http://cn.oculus.im/2013/05/06/xianlaikanhuafengbuzhi/</link>
+	<guid>http://cn.oculus.im/2013/05/06/xianlaikanhuafengbuzhi/</guid>
 </item>
 
 <item>
 	<title>人生太短</title>
-	<link>http://cn.oculus.im/2013/02/20/life-is-too-short/</link>
+	<guid>http://cn.oculus.im/2013/02/20/life-is-too-short/</guid>
 </item>	
 
 <item>
 	<title>何謂學習</title>
-	<link>http://cn.oculus.im/2012/11/21/what-is-study/</link>
+	<guid>http://cn.oculus.im/2012/11/21/what-is-study/</guid>
 </item>	
 
 <item>
 	<title>星空</title>
-	<link>http://cn.oculus.im/2012/10/14/starrynight/</link>
+	<guid>http://cn.oculus.im/2012/10/14/starrynight/</guid>
 </item>
 
 <item>
 	<title>夏</title>
-	<link>http://cn.oculus.im/2012/10/10/summer/</link>
+	<guid>http://cn.oculus.im/2012/10/10/summer/</guid>
 </item>
 
 <item>
 	<title>何寂寞之有</title>
-	<link>http://cn.oculus.im/2012/05/20/where-is-the-lonely/</link>
+	<guid>http://cn.oculus.im/2012/05/20/where-is-the-lonely/</guid>
 </item>
 
 </channel>

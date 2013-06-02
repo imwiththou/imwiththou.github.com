@@ -5,7 +5,7 @@ body, h1, h2, h3, h4, h5 {
   margin-top: 0; }
 
 body {
-   background: #fff;
+   background: #f1f1f1;
  /*backgroud-image: url('/themes/b/img/icloud texture 2560x1440.jpeg');*/
   /*background-image: -webkit-linear-gradient(-45deg, #f2f2f2, #ededef);
   background-image: -moz-linear-gradient(-45deg, #f2f2f2, #ededef);
@@ -20,7 +20,7 @@ body {
   section.callout.linen { padding-left: 23px; padding-right: 23px; background-image: url(https://devimages.apple.com.edgekey.net/xcode/images/callout-background.png); border-color: #d0d0d0; box-shadow: none; }
 
   body > header, body .content, body footer {
-    background: #fff;
+    background: #f1f1f1;
     margin: 0 auto;
     width: 100%;
     padding: 30px;

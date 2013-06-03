@@ -17,7 +17,7 @@ links:
  # - name:         Categories
  #   url:          /categories
   - name:         About
-    url:          /about
+    url:          /about.html
   - name:         Quotes
     url:          /quote
  # - name:         Log

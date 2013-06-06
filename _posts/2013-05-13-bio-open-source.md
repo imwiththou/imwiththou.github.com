@@ -48,5 +48,7 @@ layout: post
 
 最後想提一下一個神公司，如果想在自己家裡進行DNA合成的話，PCR反應需要的DNA引物可以直接在[DNA 2.0](https://www.dna20.com)上輸入合成序列然後他們就會把合成好的DNA裝在試管理給你寄過來，就像下圖這樣。不僅僅是DNA，你還可以合成自己需要的蛋白質和其他產物。
 <center>
-![](http://fmn.rrimg.com/fmn062/20130518/1340/large_gzyn_26140000510a1190.jpg)
+
+<img src="http://fmn.rrimg.com/fmn062/20130518/1340/large_gzyn_26140000510a1190.jpg">
+
 </center>

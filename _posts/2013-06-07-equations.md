@@ -52,8 +52,7 @@ Here we go with little test on LaTex support on this site.
 ### In-line Mathematics
 
 <p>Finally, while display equations look good for a page of samples, the
-ability to mix math and text in a paragraph is also important.  This
-expression \(\sqrt{3x-1}+(1+x)^2\) is an example of an inline equation.  As
+ability to mix math and text in a paragraph is also important.  Thisexpression \(\sqrt{3x-1}+(1+x)^2\) is an example of an inline equation.  As
 you see, MathJax equations can be used this way as well, without unduly
 disturbing the spacing between lines.</p>
 ***

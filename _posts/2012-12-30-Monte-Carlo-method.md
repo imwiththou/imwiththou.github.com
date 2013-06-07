@@ -43,7 +43,7 @@ P(0\leq \alpha \leq \frac{\pi}{2}&=\frac{2}{\pi}d\alpha)
 很容易發現，當\(x \leq \frac{l\times \sin{\alpha}}{2}\)時，針與直線相交，故</p>
 <p>
 \begin{align}
-P&=\int_{0}^{\frac{\pi}{2}}\int\limits_{0}^{\frac{\sin{\alpha}}{2}}\frac{4}{\pi D}dxd\alpha\\
+P&=\int_{0}^{\frac{\pi}{2}}\int_{0}^{\frac{\sin{\alpha}}{2}}\frac{4}{\pi D}dxd\alpha\\
 &=\int_{0}^{\frac{\pi}{2}}\frac{2l\sin{\alpha}}{\pi D}d\alpha\\
 &=\frac{2l}{\pi D\times 1}\\
 &=\frac{2l}{\pi D}
@@ -78,10 +78,10 @@ P&=\int_{0}^{\frac{\pi}{2}}\int\limits_{0}^{\frac{\sin{\alpha}}{2}}\frac{4}{\pi 
 5. 如此進行迭代計算直至最後搜索出低於所給能量條件的分子構型
 </code></pre>
 
-<p>(玻爾茲曼因子(Boltzmann's factor)＝\(e^{-\frac{E_{i}}{kT}}\)</p><p> \(k=\)玻爾茲曼常數(Boltzmann constant)\(＝1.3810^{-23} J/K\)</p><p>\(E_{i}＝\)狀態\(i\)的能量)</p>
+<h4><p>玻爾茲曼因子(Boltzmann's factor)＝\(e^{-\frac{E_{i}}{kT}}\)</p><p> \(k=\)玻爾茲曼常數(Boltzmann constant)\(＝1.3810^{-23} J/K\)</p><p>\(E_{i}＝\)狀態\(i\)的能量</p></h4>
 
 <hr></hr>
 
-<p>最後回到矇特卡羅方法計算\(\pi\)值的試驗中談談相關的流程。</p>
+<p>最後回到蒙特卡羅方法計算\(\pi\)值的試驗中談談相關的流程。</p>
 <p>
 讓計算機每次隨機生成兩個0到1之間的數，看以這兩個實數為橫縱坐標的點是否在單位圓內。生成一系列隨機點，統計單位圓內的點數與總點數，（圓面積和正方形面積之比為\(\pi : 4\)），當隨機點取得越多時，其結果越接近於圓周率（然而準確度仍有爭議：即使取\(10^{9}\)個隨機點時，其結果也僅在前4位與圓周率吻合）。實際上，計算機產生的隨機數隻能精確到某位數，並不能產生任意實數（例如無理數等等）；上述做法將平面分割成一個個網格，由此計算出來的面積當然與圓或多或少有差距。</p>

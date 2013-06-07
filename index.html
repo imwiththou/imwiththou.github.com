@@ -13,9 +13,9 @@ layout: default
   {% endfor %}
 </ul>
 <section class="pagination">
-  <a href="/{{ paginator.previous_page_path }}" class="previous-page{% unless paginator.previous_page %} invisible{% endunless %}">Previous</a>
+  <a href="/{{ paginator.previous_page_path }}" class="previous-page{% unless paginator.previous_page %} invisible{% endunless %}">上一頁</a>
   {{ paginator.page }} of {{ paginator.total_pages }}
-  <a href="/{{ paginator.next_page_path }}" class="next-page{% unless paginator.next_page %} invisible{% endunless %}">Next</a>
+  <a href="/{{ paginator.next_page_path }}" class="next-page{% unless paginator.next_page %} invisible{% endunless %}">下一頁</a>
 </section>
 <aside>
   <img src="{{ site.owner.avatar }}" alt="{{ site.owner.name }}" class="avatar" />

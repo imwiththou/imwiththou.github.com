@@ -58,3 +58,9 @@ you see, MathJax equations can be used this way as well, without unduly
 disturbing the spacing between lines.</p>
 ***
 the test ends here.
+
+Therefore the points that should be noted by using MathJex for LaTex support are all about the syntaxes. 
+
+In MathJex the mode for pure math expression is using <code>\\[ and \\]</code>, similar to <code>$$ with $$</code> in LaTex syntax.
+
+Another difference is the inline math expression by using <code>\\( and \\)</code> in stead of using <code>$ with $</code> in LaTex.

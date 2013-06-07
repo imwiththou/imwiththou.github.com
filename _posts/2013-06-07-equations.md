@@ -5,13 +5,13 @@ layout: post
 
 Here we go with little test on LaTex support on this site.
 
-#### Einstein's equation on mass and energy:
+### Einstein's equation on mass and energy:
 
-$$E=mc^{2}$$
+\[E=mc^{2}]
 
 ***
 
-#### The Lorenz Equations
+### The Lorenz Equations
 
 <p>
 \begin{align}
@@ -23,7 +23,7 @@ $$E=mc^{2}$$
 
 ---
 
-#### The Cauchy-Schwarz Inequality
+### The Cauchy-Schwarz Inequality
 
 <p>\[
 \left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
@@ -32,13 +32,13 @@ $$E=mc^{2}$$
 
 ---
 
-#### The probability of getting \(k\) heads when flipping \(n\) coins is:
+### The probability of getting \(k\) heads when flipping \(n\) coins is:
 
 <p>\[P(E) = {n \choose k} p^k (1-p)^{ n-k} \]</p>
 
 ---
 
-#### An Identity of Ramanujan
+### An Identity of Ramanujan
 
 <p>\[
    \frac{1}{(\sqrt{\phi \sqrt{5}}-\phi) e^{\frac25 \pi}} =
@@ -48,7 +48,7 @@ $$E=mc^{2}$$
 
 ---
 
-#### In-line Mathematics
+### In-line Mathematics
 
 <p>Finally, while display equations look good for a page of samples, the
 ability to mix math and text in a paragraph is also important.  This

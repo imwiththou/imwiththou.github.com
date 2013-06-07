@@ -9,7 +9,7 @@ layout: post
 
 原題設：平面內間距為D的一組平行線，任意放置一長為\(l(l<D)\)的針。
 
-求證：針與直線相交的概率為 \[P=\frac{2l}{\pi D}\]
+求證：針與直線相交的概率為 \(P=\frac{2l}{\pi D}\)
 
  
 
@@ -26,10 +26,10 @@ layout: post
 
 則有  概率密度
 
-\[\begin{align}
+\begin{align}
 P(0\leq x \leq \frac{D}{2})&=\frac{2}{D}dx;\\
-P(0\leq a \lep \frac{\pi}{2}&=\frac{2}{\pi}da)
-\end{align}\]
+P(0\leq a \leq \frac{\pi}{2}&=\frac{2}{\pi}da)
+\end{align}
 
 
  
@@ -43,12 +43,12 @@ P(0\leq a \lep \frac{\pi}{2}&=\frac{2}{\pi}da)
 
 很容易發現，當\(x \leq \frac{l\times \sin{a}}{2}\)時，針與直線相交，故
 
-\[\begin{align}
+\begin{align}
 P&=\int\limits_{0}^{\frac{\pi}{2}}\int\limits_{0}^{\frac{\sin{a}}{2}}\frac{4}{\pi D}dxda\\
 &=\int\limits_{0}^{\frac{\pi}{2}}\frac{2l\sin{a}}{\pi D}da\\
 &=\frac{2l}{\pi D\times 1}\\
 \frac{2l}{\pi D}
-\end{align}\]
+\end{align}
  
 
 得解。

@@ -7,8 +7,9 @@ Here we go with little test on LaTex support on this site.
 
 ### Einstein's equation on mass and energy:
 
-\[E=mc^{2}]
-
+<p>
+\[E=mc^{2}\]
+</p>
 ***
 
 ### The Lorenz Equations

@@ -47,7 +47,7 @@ figure{
 	top:auto;
 	margin-top:20px;
 }
-figure.kudo{
+/*figure.kudo{
 	position: absolute;
 	right: 50%;
 	margin-right: -30px;
@@ -57,7 +57,7 @@ figure.kudo{
 /*figure.kudo article a.kudobject p{text-align:center;display:block;margin:0;padding:0;line-height:50px;width:auto;height:auto}*/
 
 .kudo.complete a.kudobject div.opening div.circle{
-	background-image: url(images/heart_60x60.png);
+	background-image: url(/kudos-master/images/heart_60x60.png);
 	background-position: center; 
 	background-repeat: no-repeat;
 	background-color: #000;

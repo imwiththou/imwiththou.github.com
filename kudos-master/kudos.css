@@ -53,8 +53,8 @@ figure{
 	margin-right: -30px;
 	top: 30px;
 	text-align:center;
-}
-/*figure.kudo article a.kudobject p{text-align:center;display:block;margin:0;padding:0;line-height:50px;width:auto;height:auto}*/
+}*/
+figure.kudo article a.kudobject p{text-align:center;display:block;margin:0;padding:0;line-height:50px;width:auto;height:auto}
 
 .kudo.complete a.kudobject div.opening div.circle{
 	background-image: url(/kudos-master/images/heart_60x60.png);

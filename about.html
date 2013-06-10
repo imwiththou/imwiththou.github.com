@@ -14,12 +14,16 @@
       <meta name="viewport" content="width=device-width">
       <meta name="description" content="A Reborn">
 
-	  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/base-min.css">
+<!--	  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/base-min.css">-->
       <link rel="stylesheet" href="/css/lib/normalize.min.css">
       <link rel="stylesheet" href="/css/lib/syntax.css">
       <link rel="stylesheet" href="/css/lib/boilerplate.css">
       <link rel="stylesheet" href="/css/lib/basics.css">
+	  <link rel="stylesheet" href="/ladda/ladda.css">
+
       <link rel="stylesheet" href="/themes/b/style.css">
+	 
+
       <script src="/themes/b/custom.js"></script>
 
       <script src="/js/lib/modernizr-2.6.2.min.js"></script>
@@ -77,7 +81,7 @@
 <!--<p><a href="http://ciel.im">Ciel&rsquo;s Saying</a></p>-->
 
 <p>
-	<a href='http://blog.oculus.im' class='button'>Tumblr</a>
+	<a href='http://blog.oculus.im' class='button'><button class="ladda-button purple expand-right"><span class="ladda-label">Tumblr</span></button></a>
 </p>
 
 <!--<p><a href="http://blog.oculus.im">Tumblr</a></p>-->
@@ -102,6 +106,42 @@
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
     </script>
+
+	<script src="/ladda/ladda.js"></script>
+
+	<script>
+
+		// Bind normal buttons
+		Ladda.bind( 'section:not(.progress-demo) button', { timeout: 2000 } );
+
+		// Bind progress buttons and simulate loading progress
+		Ladda.bind( 'section.progress-demo button', { 
+			callback: function( instance ) {
+				var progress = 0;
+				var interval = setInterval( function() {
+					progress = Math.min( progress + Math.random() * 0.1, 1 );
+					instance.setProgress( progress );
+
+					if( progress === 1 ) {
+						instance.stop();
+						clearInterval( interval );
+					}
+				}, 200 );
+			} 
+		} );
+
+		// You can control loading explicitly using the JavaScript API
+		// as outlined below:
+
+		// var l = Ladda.create( document.querySelector( 'button' ) );
+		// l.start();
+		// l.start();
+		// l.stop();
+		// l.toggle();
+		// l.isLoading();
+		// l.setProgress( 0-1 );
+
+	</script>
 
   </body>
 </html>

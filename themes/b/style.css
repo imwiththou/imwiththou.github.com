@@ -50,7 +50,7 @@ sup, sup a { color:#666; }
 sup a:hover { color:#023; text-decoration:none; }
 abbr { border: 0; }
 .sosumi { font-size: 10px !important; line-height:1.5; color:#888; }
-.sosumi_features { font-size: 10px !important; line-height:1.5; color:#888; }
+.sosumi_features { font-size: 10px !important; line-height:1.5; color:#878787; }
 
 h1,h2,h3,h4,h5,h6,strong { color:#000; }
 h1,h2,h3,h4 { font-weight: normal; }
@@ -65,20 +65,6 @@ p { margin-bottom: 18px; word-spacing:-1px; }
 p.intro { color: #888; font-size: 1.143em; line-height: 1.562em; font-weight: normal; }
 h1 + p.intro { margin-top:-1.2em; }
 .more { text-align: right; }
-
-ul { list-style: none outside; }
-ol { margin-bottom: 18px; list-style: decimal; margin-left: 2.2em; }
-ul.square,
-ul.circle { margin-left: 2em; margin-bottom: 18px; }
-ul.square { list-style: square outside; }
-ul.circle { list-style: disc outside; }
-ul.circle-inside { list-style: disc inside; padding:0.5em 0 2em 1.3em; }
-ul ul.circle,
-ul ul.square { margin-top: 4px; margin-bottom: 5px; }
-ol.sosumi { margin-left: 0; padding-left: 2em; *padding-left: 2.2em; }
-
-pre { margin-bottom:1.6em; padding:1em 16px; border:1px solid #ffffff; background-color:#ffffff; white-space:pre-wrap; white-space:-moz-pre-wrap !important; white-space:-pre-wrap; white-space:-o-pre-wrap; word-wrap:break-word; }
-caption { padding-bottom:.6em; }
 
 .button {
    border: 1px solid #000;
@@ -177,7 +163,7 @@ article header {
     font-size: 11px; }
 
 aside {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #dedede;
   padding-top: 15px;
   margin: 30px auto 0; }
   aside .avatar {

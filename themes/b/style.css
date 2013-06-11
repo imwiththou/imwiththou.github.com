@@ -12,6 +12,7 @@ body, h1, h2, h3, h4, h5 {
 	-webkit-font-smoothing: antialiased;;
     margin: 0 auto;
     width: 100%;
+    padding: 30px;
     text-align: center;}
 
 
@@ -20,7 +21,7 @@ body, h1, h2, h3, h4, h5 {
     margin: 1px auto; }
 	
  .shadow { -webkit-box-shadow:rgba(0,0,0,0.35) 0 1px 3px; -moz-box-shadow:rgba(0,0,0,0.35) 0 1px 3px; box-shadow:rgba(0,0,0,0.35) 0 1px 3px; }
-img.shadow { :5px; background:#fff; margin-bottom:2px; *border:1px solid #e2e2e2; _position:relative; }
+img.shadow { padding:5px; background:#fff; margin-bottom:2px; *border:1px solid #e2e2e2; _position:relative; }
 
  .reflection { -webkit-box-reflect:below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(rgba(255,255,255,.3))); }
 

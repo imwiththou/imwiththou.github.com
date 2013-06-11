@@ -3,17 +3,30 @@ body, h1, h2, h3, h4, h5 {
   font-family: MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
   font-weight: normal;
   margin-top: 0; }
+
+body {
+   background: #f1f1f1;
+ /*backgroud-image: url('/themes/b/img/icloud texture 2560x1440.jpeg');*/
+  /*background-image: -webkit-linear-gradient(-45deg, #f2f2f2, #ededef);
+  background-image: -moz-linear-gradient(-45deg, #f2f2f2, #ededef);
+  background-image: -ms-linear-gradient(-45deg, #f2f2f2, #ededef);
+  background-image: -o-linear-gradient(-45deg, #f2f2f2, #ededef);
+  background-image: linear-gradient(-45deg, #f2f2f2, #ededef);*/
+ /* background-size: cover;
+  background-repeat: no-repeat;*/
+ /* padding: 20px;*/
+  font-size: 14px/20px; }
   
-  
+  section.callout.linen { padding-left: 23px; padding-right: 23px; background-image: url(https://devimages.apple.com.edgekey.net/xcode/images/callout-background.png); border-color: #d0d0d0; box-shadow: none; }
 
   body > header, body .content, body footer {
-    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; 
-	background-color: #fff; 
-	-webkit-font-smoothing: antialiased;;
+    background: #f1f1f1;
     margin: 0 auto;
     width: 100%;
     padding: 30px;
-    text-align: center;}
+    text-align: center; }
+  body, body * {
+    -webkit-font-smoothing: antialiased; }
 
 
 
@@ -23,11 +36,35 @@ body, h1, h2, h3, h4, h5 {
  .shadow { -webkit-box-shadow:rgba(0,0,0,0.35) 0 1px 3px; -moz-box-shadow:rgba(0,0,0,0.35) 0 1px 3px; box-shadow:rgba(0,0,0,0.35) 0 1px 3px; }
 img.shadow { padding:5px; background:#fff; margin-bottom:2px; *border:1px solid #e2e2e2; _position:relative; }
 
+ .roundedtop { border-radius: 4px 4px 0 0; -webkit-border-top-left-radius:4px; -webkit-border-top-right-radius:4px; -moz-border-radius: 4px 4px 0 0; -o-border-radius: 4px 4px 0 0; -khtml-border-radius: 4px 4px 0 0; }
+ .roundedbottom { border-radius: 0 0 4px 4px; -webkit-border-bottom-left-radius:4px; -webkit-border-bottom-right-radius:4px; -moz-border-radius: 0 0 4px 4px; -o-border-radius: 0 0 4px 4px; -khtml-border-radius: 0 0 4px 4px; }
+ .roundedright { border-radius: 0 4px 4px 0; -webkit-border-top-right-radius:4px; -webkit-border-bottom-right-radius:4px; -moz-border-radius: 0 4px 4px 0; -o-border-radius: 0 4px 4px 0; -khtml-border-radius: 0 4px 4px 0; }
+ .roundedleft { border-radius: 4px 0 0 4px; -webkit-border-top-left-radius:4px; -webkit-border-bottom-left-radius:4px; -moz-border-radius: 4px 0 0 4px; -o-border-radius: 4px 0 0 4px; -khtml-border-radius: 4px 0 0 4px; }
+ .roundedtopleft { border-radius:4px 0 0; -webkit-border-top-left-radius:4px; -moz-border-radius:4px 0 0; -o-border-radius:4px 0 0; -khtml-border-radius:4px 0 0; }
+ .roundedtopright { border-radius: 0 4px 0 0; -webkit-border-top-right-radius:4px; -moz-border-radius:0 4px 0 0; -o-border-radius:0 4px 0 0; -khtml-border-radius: 0 4px 0 0; }
+ .roundedbottomleft { border-radius: 0 0 0 4px; -webkit-border-bottom-left-radius:4px; -moz-border-radius: 0 0 0 4px; -o-border-radius: 0 0 0 4px; -khtml-border-radius: 0 0 0 4px; }
+ .roundedbottomright { border-radius: 0 0 4px 0; -webkit-border-bottom-right-radius:4px; -moz-border-radius: 0 0 4px 0; -o-border-radius: 0 0 4px 0; -khtml-border-radius: 0 0 4px 0; }
+
+
  .reflection { -webkit-box-reflect:below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(rgba(255,255,255,.3))); }
 
 
+/* callout */
+.callout {
+	margin-bottom:18px; padding:16px 18px 1px; font-size:12px; line-height:1.7em;
+	border:1px solid #e1e1e1; border-top:1px solid #f5f5f5; border-bottom:1px solid #c4c4c4;
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -khtml-border-radius:5px; -o-border-radius:5px;
+	box-shadow:0 1px 2px rgba(0, 0, 0, .2); -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 2px rgba(0, 0, 0, .2); -khtml-box-shadow:0 1px 2px rgba(0, 0, 0, .2); -o-box-shadow:0 1px 2px rgba(0, 0, 0, .2);
+}
 
-a { color: #002131; text-transform: none;
+/* linen callout */
+section.callout.linen { padding-left: 23px; padding-right: 23px; background-image: url(https://devimages.apple.com.edgekey.net/xcode/images/callout-background.png); border-color: #d0d0d0; box-shadow: none; }
+
+
+/* inset callout */
+.callout.inset { border:1px solid #dcdcdc; border-width:2px 1px 1px; background:#e7e9ef url(https://devimages.apple.com.edgekey.net/assets/elements/layout/message_bg.png) repeat-x 0 0; box-shadow:none; -webkit-box-shadow:none; -moz-box-shadow:none; -khtml-box-shadow:none; -o-box-shadow:none; }
+
+a { color: #023; text-transform: none;
     letter-spacing: none;
     font-size: 11px;
     white-space: nowrap;}
@@ -78,12 +115,18 @@ ul ul.circle,
 ul ul.square { margin-top: 4px; margin-bottom: 5px; }
 ol.sosumi { margin-left: 0; padding-left: 2em; *padding-left: 2.2em; }
 
-pre { margin-bottom:1.6em; padding:1em 16px; border:1px solid #ffffff; background-color:#ffffff; white-space:pre-wrap; white-space:-moz-pre-wrap !important; white-space:-pre-wrap; white-space:-o-pre-wrap; word-wrap:break-word; }
+pre { margin-bottom:1.6em; padding:1em 16px; border:1px solid #e5e5e5; background-color:#f7f7f7; white-space:pre-wrap; white-space:-moz-pre-wrap !important; white-space:-pre-wrap; white-space:-o-pre-wrap; word-wrap:break-word; }
 caption { padding-bottom:.6em; }
 
 .button {
-   border: 1px solid #000;
-   background: transparent;
+   border: 1px solid #616161;
+   background: #dedede;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#dedede));
+   background: -webkit-linear-gradient(top, #f0f0f0, #dedede);
+   background: -moz-linear-gradient(top, #f0f0f0, #dedede);
+   background: -ms-linear-gradient(top, #f0f0f0, #dedede);
+   background: -o-linear-gradient(top, #f0f0f0, #dedede);
+   background-image: -ms-linear-gradient(top, #f0f0f0 0%, #dedede 100%);
    padding: 4px 8px;
    -webkit-border-radius: 4px;
    -moz-border-radius: 4px;
@@ -91,6 +134,7 @@ caption { padding-bottom:.6em; }
    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #f5f5f5 0 1px 0;
    color: #0a0a0a;
    font-size: 12px;
    font-family: MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
@@ -98,16 +142,28 @@ caption { padding-bottom:.6em; }
    vertical-align: middle;
    }
 .button:hover {
-   border: 1px solid #000;
-   text-shadow: #f5f5f5 0 1px 0;
-   background: transparent;
-   color: #000;
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
    }
 .button:active {
-   border: 1px solid #000;
-   text-shadow: #f5f5f5 0 1px 0;
-   background: transparent;
-   color: #000;
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
    }
 
 body.specs #main { font-size: 11px; line-height: 16px; }
@@ -136,7 +192,61 @@ body.specs #main { font-size: 11px; line-height: 16px; }
     nav a:last-child {
       margin-right: 0; }
 	  
+/* global header */
+#globalheader { position:relative; width:980px; height:58px; margin:18px auto 0; z-index:999; font-size:12px; _zoom:1; }
+#globalheader { height:36px; }
+#globalheader h1 { display:inline; }
+#globalheader h1 a { position:absolute; top:-3px; left:7px; width:131px; height:27px; text-indent:-9999px; outline:none; -moz-outline:none; background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/developer.png) no-repeat 0 0; }
+#globalheader #gh-search { position:absolute; top:5px; right:10px; }
+#globalheader #gh-search input.prettysearch { width:200px; margin-left:20px; }
+#globalheader #gh-search .search-wrapper { width:200px; }
+#globalheader #gh-search .search-wrapper input.prettysearch { width:171px; }
 
+#globalheader ul#gh-nav { position:absolute; right:240px; top:1px;  margin:0; }
+#globalheader ul#gh-nav li { display:inline; float:left; margin:0 0 0 2.0em; }
+#globalheader ul#gh-nav li a { display:block; color:#333; text-decoration:none; padding:.3em 0 .3em 5px; text-shadow: 0px 1px 1px #fff; line-height:18px; }
+#globalheader ul#gh-nav li a:hover { color:#023; }
+#globalheader ul#gh-nav li.menu { position:relative; }
+#globalheader ul#gh-nav li.menu a { margin-right:-3px; padding-left:7px; outline:none; -moz-outline:none; *margin-right:0; }
+#globalheader ul#gh-nav li.menu a span { padding-right:.4em; }
+#globalheader ul#gh-nav li.menu a b { padding:.4em 0; _padding:.3em 0; background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_carat.png) no-repeat 0 60%; }
+#globalheader ul#gh-nav li.menu a b b { padding:.4em; visibility:hidden; *display:inline-block; *width:1.6em; *padding:0; }
+#globalheader ul#gh-nav li.menu ul { display:none; position:absolute; width:137px; margin:0 -4px 0 -2px; padding:0 0 1px; z-index:99; }
+#globalheader ul#gh-nav li.menu ul { margin-top:-3px; padding:4px 0 5px; background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_bgtop.png) no-repeat; behavior:url(/assets/scripts/lib/iepngfix.htc); }
+#globalheader ul#gh-nav li.menu ul li { display:block; float:none; width:127px; margin:0; padding:0 6px 1px 4px; *margin-bottom:-3px; background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_bg.png) repeat-y; behavior:url(/assets/scripts/lib/iepngfix_scale.htc); }
+#globalheader ul#gh-nav li.menu ul li a { margin:0; padding:1px 5px; color:#366088; text-decoration:none; }
+#globalheader ul#gh-nav li.menu ul li a:hover { color:#fff !important; background:#778ba6; }
+#globalheader ul#gh-nav li.menu ul li.menubottom { height:5px; font-size:1px; background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_bgbottom.png) no-repeat; }
+#globalheader ul#gh-nav li.menu.active { background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_activebg.gif) no-repeat 0 0; }
+#globalheader ul#gh-nav li.menu.active a span { }
+#globalheader ul#gh-nav li.menu.active a b { background:#c0cad4 url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_caratactive.gif) no-repeat 100% 0; }
+#globalheader ul#gh-nav li.menu.active a:hover { color:#000; }
+#globalheader ul#gh-nav li.menu.active ul { display:block; }
+
+
+/* active global header states */
+.gh-nav-technologies-active #globalheader ul#gh-nav #gh-nav-technologies a,
+.gh-nav-resources-active #globalheader ul#gh-nav #gh-nav-resources a,
+.gh-nav-programs-active #globalheader ul#gh-nav #gh-nav-programs a,
+.gh-nav-support-active #globalheader ul#gh-nav #gh-nav-support a,
+.gh-nav-membercenter-active #globalheader ul#gh-nav #gh-nav-membercenter a { color: #999; }
+
+
+/* page header */
+#header { position:relative; width:984px; margin:0 -2px; padding:0 2px; behavior:url(/assets/scripts/lib/iepngfix.htc); zoom:1; }
+#header h2,
+#header h2 a { float:left; width:984px; margin:0 -2px; text-indent:-9999px; }
+#header h2 a { outline:none; }
+
+#header ul.login { display:inline; float:right; margin:.6em 18px 0; font-size:11px; }
+#header ul.login li { float:left; }
+#header ul.login li a { margin:0 0 0 1.5em; padding:0 0 0 1.5em; border-left:1px solid #b2b2b2; }
+
+/* global footer (legacy) */
+#globalfooter .gf-buy { float: left; width: 60%; margin: 18px 0 9px; }
+#globalfooter .gf-links { float: right; margin: 18px 0 9px; }
+#globalfooter .gf-links a { padding: 0 10px; white-space: nowrap; }
+#globalfooter .gf-links a.last { padding-right: 0; _float: none !important; width: auto !important; }
 
 .description {
   color: #999; }
@@ -188,7 +298,7 @@ aside {
   aside .recent-posts {
     margin-bottom: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #dedede; }
+    border-bottom: 1px solid #ddd; }
   aside .previous-post, aside .next-post {
     white-space: nowrap;
     max-width: 100%;

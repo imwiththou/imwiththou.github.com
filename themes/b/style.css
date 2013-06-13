@@ -132,9 +132,6 @@ caption { padding-bottom:.6em; }
    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    color: #0a0a0a;
-   font-size: 12px;
-   font-family: MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
-   text-decoration: none;
    vertical-align: middle;
    }
 .button:hover {

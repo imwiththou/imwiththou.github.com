@@ -120,9 +120,10 @@ caption { padding-bottom:.6em; }
 
 .button {
    text-decoration: capitalize;
+   text-fill-color: #3a96ff;
    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
    font-weight: lighter;
-   border: 1px solid #616161;
+   border: 1px solid #3a96ff;
    background: transparent;
    padding: 4px 8px;
    -webkit-border-radius: 4px;
@@ -131,21 +132,22 @@ caption { padding-bottom:.6em; }
    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
-   color: #0a0a0a;
+   color: #e5e5e5;
    vertical-align: middle;
    }
 .button:hover {
 	text-decoration: capitalize;
+	text-fill-color: #3a96ff;
 	   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 	   font-weight: lighter;
-   border: 1px solid #0a3c59;
+   border: 1px solid #3a96ff;
    background: transparent;
    }
 .button:active {
 	text-decoration: capitalize;
+	text-fill-color: #3a96ff;
 	   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 	   font-weight: lighter;
-   text-shadow: #1e4158 0 1px 0;
    background: transparent;
    }
 

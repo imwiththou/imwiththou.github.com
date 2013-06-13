@@ -65,7 +65,7 @@ section.callout.linen { padding-left: 23px; padding-right: 23px; background-imag
 /* inset callout */
 .callout.inset { border:1px solid #dcdcdc; border-width:2px 1px 1px; background:#e7e9ef url(https://devimages.apple.com.edgekey.net/assets/elements/layout/message_bg.png) repeat-x 0 0; box-shadow:none; -webkit-box-shadow:none; -moz-box-shadow:none; -khtml-box-shadow:none; -o-box-shadow:none; }
 
-a { color: #3a96ff; text-transform: none;
+a { color: #1c4779; text-transform: none;
     letter-spacing: none;
     font-size: 11px;
     white-space: nowrap;}
@@ -73,7 +73,7 @@ a:link, a:visited, a:active { text-decoration: none; }
 a:hover { text-decoration: none; }
 a.block { display: block; cursor: pointer; }
 a.block span,
-a.block em { color:#3a96ff; cursor: pointer; }
+a.block em { color:#1c4779; cursor: pointer; }
 a.block:hover { text-decoration: none; }
 a.block:hover span,
 a.block:hover em { color: #023; text-decoration: none; }

@@ -120,7 +120,7 @@ caption { padding-bottom:.6em; }
 
 .button {
    text-decoration: capitalize;
-   text-color: #3a96ff;
+   color: #3a96ff;
    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
    font-weight: lighter;
    border: 1px solid #3a96ff;
@@ -132,12 +132,11 @@ caption { padding-bottom:.6em; }
    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
-   color: #e5e5e5;
    vertical-align: middle;
    }
 .button:hover {
 	text-decoration: capitalize;
-	text-color: #3a96ff;
+	color: #3a96ff;
 	   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 	   font-weight: lighter;
    border: 1px solid #3a96ff;
@@ -145,7 +144,7 @@ caption { padding-bottom:.6em; }
    }
 .button:active {
 	text-decoration: capitalize;
-	text-color: #3a96ff;
+	color: #3a96ff;
 	   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 	   font-weight: lighter;
    background: transparent;

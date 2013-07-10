@@ -7,16 +7,7 @@ body, h1, h2, h3, h4, h5 {
 
 body {
    background: #f1f1f1;
- /*backgroud-image: url('/themes/b/img/icloud texture 2560x1440.jpeg');*/
-  /*background-image: -webkit-linear-gradient(-45deg, #f2f2f2, #ededef);
-  background-image: -moz-linear-gradient(-45deg, #f2f2f2, #ededef);
-  background-image: -ms-linear-gradient(-45deg, #f2f2f2, #ededef);
-  background-image: -o-linear-gradient(-45deg, #f2f2f2, #ededef);
-  background-image: linear-gradient(-45deg, #f2f2f2, #ededef);*/
- /* background-size: cover;
-  background-repeat: no-repeat;*/
- /* padding: 20px;*/
-  font-size: 14px/20px; }
+   font-size: 14px/20px; }
   
   section.callout.linen { padding-left: 23px; padding-right: 23px; background-image: url(https://devimages.apple.com.edgekey.net/xcode/images/callout-background.png); border-color: #d0d0d0; box-shadow: none; }
 
@@ -28,8 +19,6 @@ body {
     text-align: center; }
   body, body * {
     -webkit-font-smoothing: antialiased; }
-
-
 
   .content {
     margin: 1px auto; }
@@ -153,17 +142,7 @@ caption { padding-bottom:.6em; }
 
 body.specs #main { font-size: 11px; line-height: 16px; }
 
- /* body > header {
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px; }
-    body > header h1 {
-      color: #484949;
-      font-size: 14px; } /*it can only be less than 16px. */
- /* body > footer {
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px; }*/
-
-  nav {
+nav {
   margin-top: 30px; }
   nav a {
     padding: 8px 13px;
@@ -208,14 +187,12 @@ body.specs #main { font-size: 11px; line-height: 16px; }
 #globalheader ul#gh-nav li.menu.active a:hover { color:#000; }
 #globalheader ul#gh-nav li.menu.active ul { display:block; }
 
-
 /* active global header states */
 .gh-nav-technologies-active #globalheader ul#gh-nav #gh-nav-technologies a,
 .gh-nav-resources-active #globalheader ul#gh-nav #gh-nav-resources a,
 .gh-nav-programs-active #globalheader ul#gh-nav #gh-nav-programs a,
 .gh-nav-support-active #globalheader ul#gh-nav #gh-nav-support a,
 .gh-nav-membercenter-active #globalheader ul#gh-nav #gh-nav-membercenter a { color: #999; }
-
 
 /* page header */
 #header { position:relative; width:984px; margin:0 -2px; padding:0 2px; behavior:url(/assets/scripts/lib/iepngfix.htc); zoom:1; }

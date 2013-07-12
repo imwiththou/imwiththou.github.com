@@ -1,0 +1,289 @@
+body, h1, h2, h3, h4, h5 {
+ /* font-family: "Open Sans"; */
+ /*font-family: MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;*/
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: normal;
+  margin-top: 0; }
+
+body {
+   background: #f1f1f1;
+   font-size: 14px/20px; }
+  
+  section.callout.linen { padding-left: 23px; padding-right: 23px; background-image: url(https://devimages.apple.com.edgekey.net/xcode/images/callout-background.png); border-color: #d0d0d0; box-shadow: none; }
+
+  body > header, body .content, body footer {
+    background: #f1f1f1;
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px;
+    text-align: center; }
+  body, body * {
+    -webkit-font-smoothing: antialiased; }
+
+  .content {
+    margin: 1px auto; }
+	
+ .shadow { -webkit-box-shadow:rgba(0,0,0,0.35) 0 1px 3px; -moz-box-shadow:rgba(0,0,0,0.35) 0 1px 3px; box-shadow:rgba(0,0,0,0.35) 0 1px 3px; }
+img.shadow { padding:5px; background:#fff; margin-bottom:2px; *border:1px solid #e2e2e2; _position:relative; }
+
+ .roundedtop { border-radius: 4px 4px 0 0; -webkit-border-top-left-radius:4px; -webkit-border-top-right-radius:4px; -moz-border-radius: 4px 4px 0 0; -o-border-radius: 4px 4px 0 0; -khtml-border-radius: 4px 4px 0 0; }
+ .roundedbottom { border-radius: 0 0 4px 4px; -webkit-border-bottom-left-radius:4px; -webkit-border-bottom-right-radius:4px; -moz-border-radius: 0 0 4px 4px; -o-border-radius: 0 0 4px 4px; -khtml-border-radius: 0 0 4px 4px; }
+ .roundedright { border-radius: 0 4px 4px 0; -webkit-border-top-right-radius:4px; -webkit-border-bottom-right-radius:4px; -moz-border-radius: 0 4px 4px 0; -o-border-radius: 0 4px 4px 0; -khtml-border-radius: 0 4px 4px 0; }
+ .roundedleft { border-radius: 4px 0 0 4px; -webkit-border-top-left-radius:4px; -webkit-border-bottom-left-radius:4px; -moz-border-radius: 4px 0 0 4px; -o-border-radius: 4px 0 0 4px; -khtml-border-radius: 4px 0 0 4px; }
+ .roundedtopleft { border-radius:4px 0 0; -webkit-border-top-left-radius:4px; -moz-border-radius:4px 0 0; -o-border-radius:4px 0 0; -khtml-border-radius:4px 0 0; }
+ .roundedtopright { border-radius: 0 4px 0 0; -webkit-border-top-right-radius:4px; -moz-border-radius:0 4px 0 0; -o-border-radius:0 4px 0 0; -khtml-border-radius: 0 4px 0 0; }
+ .roundedbottomleft { border-radius: 0 0 0 4px; -webkit-border-bottom-left-radius:4px; -moz-border-radius: 0 0 0 4px; -o-border-radius: 0 0 0 4px; -khtml-border-radius: 0 0 0 4px; }
+ .roundedbottomright { border-radius: 0 0 4px 0; -webkit-border-bottom-right-radius:4px; -moz-border-radius: 0 0 4px 0; -o-border-radius: 0 0 4px 0; -khtml-border-radius: 0 0 4px 0; }
+
+
+ .reflection { -webkit-box-reflect:below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(rgba(255,255,255,.3))); }
+
+
+/* callout */
+.callout {
+	margin-bottom:18px; padding:16px 18px 1px; font-size:12px; line-height:1.7em;
+	border:1px solid #e1e1e1; border-top:1px solid #f5f5f5; border-bottom:1px solid #c4c4c4;
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -khtml-border-radius:5px; -o-border-radius:5px;
+	box-shadow:0 1px 2px rgba(0, 0, 0, .2); -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 2px rgba(0, 0, 0, .2); -khtml-box-shadow:0 1px 2px rgba(0, 0, 0, .2); -o-box-shadow:0 1px 2px rgba(0, 0, 0, .2);
+}
+
+/* linen callout */
+section.callout.linen { padding-left: 23px; padding-right: 23px; background-image: url(https://devimages.apple.com.edgekey.net/xcode/images/callout-background.png); border-color: #d0d0d0; box-shadow: none; }
+
+
+/* inset callout */
+.callout.inset { border:1px solid #dcdcdc; border-width:2px 1px 1px; background:#e7e9ef url(https://devimages.apple.com.edgekey.net/assets/elements/layout/message_bg.png) repeat-x 0 0; box-shadow:none; -webkit-box-shadow:none; -moz-box-shadow:none; -khtml-box-shadow:none; -o-box-shadow:none; }
+
+a { color: #1c4779; text-transform: none;
+    letter-spacing: none;
+    font-size: 11px;
+    white-space: nowrap;}
+a:link, a:visited, a:active { text-decoration: none; }
+a:hover { text-decoration: none; }
+a.block { display: block; cursor: pointer; }
+a.block span,
+a.block em { color:#1c4779; cursor: pointer; }
+a.block:hover { text-decoration: none; }
+a.block:hover span,
+a.block:hover em { color: #023; text-decoration: none; }
+a.more, em.more, span.more { white-space: nowrap; padding-right: 10px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; cursor: pointer; zoom: 1; }
+a.external, em.external, span.external { white-space: nowrap; padding-right: 15px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/icons/external10x10.gif) no-repeat 100% 49%; cursor: pointer; zoom: 1; }
+a[rel="external"] { white-space: nowrap; padding-right: 15px; background: url(https://devimages.apple.com.edgekey.net/assets/elements/icons/external10x10.gif) no-repeat 100% 49%; cursor: pointer; zoom: 1; }
+em.more, span.more, em.external, span.external { color:#023; font-style: normal; cursor: pointer; }
+.nowrap { white-space:nowrap; }
+strong, b { font-weight: bold; }
+em, i, cite { font-style: italic; }
+sup { padding-left: 1px; font-size: 10px !important; font-weight: normal !important; vertical-align: baseline; position: relative; bottom: 0.33em; _position: static !important; }
+sup, sup a { color:#666; }
+sup a:hover { color:#023; text-decoration:none; }
+abbr { border: 0; }
+.sosumi { font-size: 10px !important; line-height:1.5; color:#888; }
+.sosumi_features { font-size: 10px !important; line-height:1.5; color:#888; }
+
+h1,h2,h3,h4,h5,h6,strong { color:#000; }
+h1,h2,h3,h4 { font-weight: normal; }
+h2,h3,h4 { line-height: 18px; }
+h1,h2 { margin-bottom: 18px; }
+h1 { font-size: 24px; line-height: 36px; }
+h1.text { font-weight: normal; font-size:34px; line-height:42px; margin-top:-8px; margin-bottom:28px; word-spacing:-2px;}
+h2 { font-size: 16px; }
+h3 { font-size: 1em; }
+h4 { font-size: 10px; }
+p { margin-bottom: 18px; word-spacing:-1px; }
+p.intro { color: #888; font-size: 1.143em; line-height: 1.562em; font-weight: normal; }
+h1 + p.intro { margin-top:-1.2em; }
+.more { text-align: right; }
+
+ul { list-style: none outside; }
+ol { margin-bottom: 18px; list-style: decimal; margin-left: 2.2em; }
+ul.square,
+ul.circle { margin-left: 2em; margin-bottom: 18px; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: disc outside; }
+ul.circle-inside { list-style: disc inside; padding:0.5em 0 2em 1.3em; }
+ul ul.circle,
+ul ul.square { margin-top: 4px; margin-bottom: 5px; }
+ol.sosumi { margin-left: 0; padding-left: 2em; *padding-left: 2.2em; }
+
+pre { margin-bottom:1.6em; padding:1em 16px; border:1px solid #e5e5e5; background-color:#f7f7f7; white-space:pre-wrap; white-space:-moz-pre-wrap !important; white-space:-pre-wrap; white-space:-o-pre-wrap; word-wrap:break-word; }
+caption { padding-bottom:.6em; }
+
+.button {
+   text-transform: capitalize;
+   color: #3a96ff;
+   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+   font-weight: lighter;
+   border: 1px solid #3a96ff;
+   background: transparent;
+   padding: 4px 8px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   vertical-align: middle;
+   }
+.button:hover {
+	text-transform: capitalize;
+	color: #3a96ff;
+	   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	   font-weight: lighter;
+   border: 1px solid #3a96ff;
+   background: transparent;
+   }
+.button:active {
+	text-transform: capitalize;
+	color: #3a96ff;
+	   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	   font-weight: lighter;
+   background: transparent;
+   }
+
+body.specs #main { font-size: 11px; line-height: 16px; }
+
+nav {
+  margin-top: 30px; }
+  nav a {
+    padding: 8px 13px;
+    border-radius: 2px;
+    margin-right: 10px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    white-space: nowrap; }
+    nav a:last-child {
+      margin-right: 0; }
+	  
+/* global header */
+#globalheader { position:relative; width:980px; height:58px; margin:18px auto 0; z-index:999; font-size:12px; _zoom:1; }
+#globalheader { height:36px; }
+#globalheader h1 { display:inline; }
+#globalheader h1 a { position:absolute; top:-3px; left:7px; width:131px; height:27px; text-indent:-9999px; outline:none; -moz-outline:none; background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/developer.png) no-repeat 0 0; }
+#globalheader #gh-search { position:absolute; top:5px; right:10px; }
+#globalheader #gh-search input.prettysearch { width:200px; margin-left:20px; }
+#globalheader #gh-search .search-wrapper { width:200px; }
+#globalheader #gh-search .search-wrapper input.prettysearch { width:171px; }
+
+#globalheader ul#gh-nav { position:absolute; right:240px; top:1px;  margin:0; }
+#globalheader ul#gh-nav li { display:inline; float:left; margin:0 0 0 2.0em; }
+#globalheader ul#gh-nav li a { display:block; color:#333; text-decoration:none; padding:.3em 0 .3em 5px; text-shadow: 0px 1px 1px #fff; line-height:18px; }
+#globalheader ul#gh-nav li a:hover { color:#023; }
+#globalheader ul#gh-nav li.menu { position:relative; }
+#globalheader ul#gh-nav li.menu a { margin-right:-3px; padding-left:7px; outline:none; -moz-outline:none; *margin-right:0; }
+#globalheader ul#gh-nav li.menu a span { padding-right:.4em; }
+#globalheader ul#gh-nav li.menu a b { padding:.4em 0; _padding:.3em 0; background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_carat.png) no-repeat 0 60%; }
+#globalheader ul#gh-nav li.menu a b b { padding:.4em; visibility:hidden; *display:inline-block; *width:1.6em; *padding:0; }
+#globalheader ul#gh-nav li.menu ul { display:none; position:absolute; width:137px; margin:0 -4px 0 -2px; padding:0 0 1px; z-index:99; }
+#globalheader ul#gh-nav li.menu ul { margin-top:-3px; padding:4px 0 5px; background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_bgtop.png) no-repeat; behavior:url(/assets/scripts/lib/iepngfix.htc); }
+#globalheader ul#gh-nav li.menu ul li { display:block; float:none; width:127px; margin:0; padding:0 6px 1px 4px; *margin-bottom:-3px; background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_bg.png) repeat-y; behavior:url(/assets/scripts/lib/iepngfix_scale.htc); }
+#globalheader ul#gh-nav li.menu ul li a { margin:0; padding:1px 5px; color:#366088; text-decoration:none; }
+#globalheader ul#gh-nav li.menu ul li a:hover { color:#fff !important; background:#778ba6; }
+#globalheader ul#gh-nav li.menu ul li.menubottom { height:5px; font-size:1px; background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_bgbottom.png) no-repeat; }
+#globalheader ul#gh-nav li.menu.active { background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_activebg.gif) no-repeat 0 0; }
+#globalheader ul#gh-nav li.menu.active a span { }
+#globalheader ul#gh-nav li.menu.active a b { background:#c0cad4 url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_caratactive.gif) no-repeat 100% 0; }
+#globalheader ul#gh-nav li.menu.active a:hover { color:#000; }
+#globalheader ul#gh-nav li.menu.active ul { display:block; }
+
+/* active global header states */
+.gh-nav-technologies-active #globalheader ul#gh-nav #gh-nav-technologies a,
+.gh-nav-resources-active #globalheader ul#gh-nav #gh-nav-resources a,
+.gh-nav-programs-active #globalheader ul#gh-nav #gh-nav-programs a,
+.gh-nav-support-active #globalheader ul#gh-nav #gh-nav-support a,
+.gh-nav-membercenter-active #globalheader ul#gh-nav #gh-nav-membercenter a { color: #999; }
+
+/* page header */
+#header { position:relative; width:984px; margin:0 -2px; padding:0 2px; behavior:url(/assets/scripts/lib/iepngfix.htc); zoom:1; }
+#header h2,
+#header h2 a { float:left; width:984px; margin:0 -2px; text-indent:-9999px; }
+#header h2 a { outline:none; }
+
+#header ul.login { display:inline; float:right; margin:.6em 18px 0; font-size:11px; }
+#header ul.login li { float:left; }
+#header ul.login li a { margin:0 0 0 1.5em; padding:0 0 0 1.5em; border-left:1px solid #b2b2b2; }
+
+/* global footer (legacy) */
+#globalfooter .gf-buy { float: left; width: 60%; margin: 18px 0 9px; }
+#globalfooter .gf-links { float: right; margin: 18px 0 9px; }
+#globalfooter .gf-links a { padding: 0 10px; white-space: nowrap; }
+#globalfooter .gf-links a.last { padding-right: 0; _float: none !important; width: auto !important; }
+
+.description {
+  color: #999; }
+
+time {
+  color: #999;
+  font-size: 10px; }
+
+.posts li {
+  margin-bottom: 10px; }
+.posts h2 {
+  margin: 0 0 6px 0; }
+
+.posts, article, aside {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  text-align: left; }
+
+.categories {
+  position: relative; }
+  .categories h3 {
+    font-size: 10px;
+    margin: 0 0 6px;
+    text-transform: capitalize; }
+  .categories h3:not(:first-of-type):before {
+    content: "------";
+    display: block;
+    color: #d0d0d0;
+    margin: 10px 0;
+    font-weight: normal; }
+
+article header {
+  padding-bottom: 15px;
+  margin-bottom: 15px; }
+  article header h2 {
+    margin-bottom: 5px; }
+  article header .category {
+    font-size: 11px; }
+
+aside {
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  margin: 30px auto 0; }
+  aside .avatar {
+    width: 90px;
+    float: left;
+    margin: 0 15px 0 0; }
+  aside .recent-posts {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd; }
+  aside .previous-post, aside .next-post {
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #858585; }
+    aside .previous-post:before, aside .next-post:before {
+      text-transform: uppercase;
+      font-size: 11px;
+      padding-right: 6px;
+      width: 60px;
+      display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto; }
+    aside .previous-post .excerpt, aside .next-post .excerpt {
+      display: none; }
+  aside .previous-post + .next-post {
+    margin-top: 8px; }
+  aside .previous-post:before {
+    content: "Previous"; }
+  aside .next-post:before {
+    content: "Next"; }
+  aside p {
+    margin: 0; }

@@ -1,0 +1,9 @@
+%figure.kudo.kudoable{:id=>"kudo-#{@post.id}"}
+	%a.kudos
+		.opening
+			.circle &nbsp;
+	%a.count
+		%span.count
+			= @post.kudos
+		%span.txt
+			Kudos

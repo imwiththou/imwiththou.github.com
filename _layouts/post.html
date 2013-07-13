@@ -1,0 +1,130 @@
+---
+layout: default
+---
+<article>
+<header>
+<h2>{{ page.title }}</h2>
+<a class="category">{{ page.category }}</a>
+<time><span>Published on </span>{{ page.date | date_to_string }}</time>
+</header>
+{{ content }}
+</article>
+
+<figure class="kudo kudoable" data-id="1">
+        <a class="kudobject">
+            <div class="opening">
+                <div class="circle">&nbsp;</div>
+            </div>
+        </a>
+        <a href="#kudo" class="count">
+            <span class="num">0</span>
+            <span class="txt">Likes</span>
+        </a>
+    </figure>
+
+<aside>
+  <section class="recent-posts">
+  {% if page.previous %}
+    <div class="previous-post">
+      <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">
+        {{ page.previous.title }}
+        <div class="excerpt">{{ page.previous.excerpt|strip_html }}</div>
+      </a>
+    </div>
+  {% endif %}
+  {% if page.next %}
+    <div class="next-post">
+      <a href="{{page.next.url}}" title="{{ page.next.title }}">
+        {{ page.next.title }}
+        <div class="excerpt">{{ page.next.excerpt|strip_html }}</div>
+      </a>
+    </div>
+  {% endif %}
+  </section>
+  <!-- <img src="{{ site.owner.avatar }}" alt="{{ site.owner.name }}" class="avatar" />
+  <strong>{{ site.owner.name }}</strong>
+  <p>{{ site.owner.bio }}</p> -->
+
+
+<section class="like-count">
+
+<link href="/kundos-master/kudos.css" media="screen" rel="stylesheet" type="text/css" />
+  	<script type="text/javascript" src="/kudos-master/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="/kudos-master/jquery.cookie.js"></script>
+		<script type="text/javascript" src="/kudos-master/kudos.js"></script>
+		<script type="text/javascript">
+			// needs to be a string for jquery.cookie
+			var postId = '1'; 
+
+			$(function()
+			{
+				// initialize kudos
+				$("figure.kudoable").kudoable();
+
+				// check to see if user has already kudod
+				// fyi cookies do not work when you are viewing this as a file
+				if($.cookie(postId) == 'true') {
+					// make kudo already kudod
+					$("figure.kudoable").removeClass("animate").addClass("complete");
+
+					// your server would take care of the proper kudos count, but because this is a
+					// static page, we need to set it here so it doesn't become -1 when you remove
+					// the kudos after a reload
+					$(".num").html(1);
+				}	
+
+				// when kudoing
+				$("figure.kudo").bind("kudo:active", function(e)
+				{
+					console.log("kudoing active");
+				});
+
+				// when not kudoing
+				$("figure.kudo").bind("kudo:inactive", function(e)
+				{
+					console.log("kudoing inactive");
+				});
+
+				// after kudo'd
+				$("figure.kudo").bind("kudo:added", function(e)
+				{
+					var element = $(this);
+					// ajax'y stuff or whatever you want
+					console.log("Kodo'd:", element.data('id'), ":)");
+
+					// set cookie so user cannot kudo again for 7 days
+					$.cookie(postId, 'true', { expires: 7 });
+				});
+
+				// after removing a kudo
+				$("figure.kudo").bind("kudo:removed", function(e)
+				{
+					var element = $(this);
+					// ajax'y stuff or whatever you want
+					console.log("Un-Kudo'd:", element.data('id'), ":(");
+
+					// remove cookie
+					$.removeCookie(postId);
+				});
+			});
+		</script></section> 
+
+
+    
+<!-- <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'abducens'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> -->
+</aside>
+
+

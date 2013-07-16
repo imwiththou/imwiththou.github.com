@@ -26,11 +26,29 @@
       <link rel="stylesheet" href="/css/lib/syntax.css"/>
       <link rel="stylesheet" href="/css/lib/boilerplate.css"/>
       <link rel="stylesheet" href="/css/lib/basics.css"/>
-      <link rel="stylesheet" href="/themes/{{ site.theme }}/style.css"/>
+      <link href="/themes/b/style.css"/ type="text/css" id="MyCSS">
+      
+      <script language="javascript">
+      	
+      	var b_v = navigator.appVersion;
+      	var IE6 = b_v.search(/MSIE 6/i) != -1;
+      	var IE7 = b_v.search(/MSIE 7/i) != -1;
+      	
+      	if(IE6){
+      		document.getElementByld("MyCSS").href="/theme/b/oldversion.css";
+      	}
+      	else if(IE7){
+      		document.getElementByld("MyCSS").href="/theme/b/oldversion.css";
+      	}
+      </script>
+      
+      
  <!--  <link rel="stylesheet" href="css/lib/handheld.css" type="text/css" media="handheld"/>-->
       
       
       <link href="/kudos-master/kudos.css" media="screen" rel="stylesheet" type="text/css" />
+		
+		
 		<script type="text/javascript" src="/kudos-master/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="/kudos-master/jquery.cookie.js"></script>
 		<script type="text/javascript" src="/kudos-master/kudos.js"></script>

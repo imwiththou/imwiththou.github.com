@@ -13,5 +13,83 @@
 
 <body bgcolor="#f1f1f1">
 
+	<h1>Pure CSS test</h1>
+	<a class="pure-button pure-button-primary" href="#">Test Primary Button</a>
+	<button class="pure-button pure-button-primary">A Primary Button</button>
+	
+	<div>
+	    <style scoped>
+
+	        .pure-button-success,
+	        .pure-button-error,
+	        .pure-button-warning,
+	        .pure-button-secondary {
+	            color: white;
+	            border-radius: 4px;
+	            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	        }
+
+	        .pure-button-success {
+	            background: rgb(28, 184, 65); /* this is a green */
+	        }
+
+	        .pure-button-error {
+	            background: rgb(202, 60, 60); /* this is a maroon */
+	        }
+
+	        .pure-button-warning {
+	            background: rgb(223, 117, 20); /* this is an orange */
+	        }
+
+	        .pure-button-secondary {
+	            background: rgb(66, 184, 221); /* this is a light blue */
+	        }
+
+	    </style>
+
+	    <button class="pure-button pure-button-success">Success Button</button>
+	    <button class="pure-button pure-button-error">Error Button</button>
+	    <button class="pure-button pure-button-warning">Warning Button</button>
+	    <button class="pure-button pure-button-secondary">Secondary Button</button>
+	</div>
+	
+	<div>
+	    <style scoped>
+
+	        .pure-button-xsmall {
+	            font-size: 70%;
+	        }
+
+	        .pure-button-small {
+	            font-size: 85%;
+	        }
+
+	        .pure-button-large {
+	            font-size: 110%;
+	        }
+
+	        .pure-button-xlarge {
+	            font-size: 125%;
+	        }
+
+	    </style>
+
+	    <button class="pure-button pure-button-xsmall">Extra Small Button</button>
+	    <button class="pure-button pure-button-small">Small Button</button>
+	    <button class="pure-button">Regular Button</button>
+	    <button class="pure-button pure-button-large">Large Button</button>
+	    <button class="pure-button pure-button-xlarge">Extra Large Button</button>
+	</div>
+	
+	<button class="pure-button">
+	    <i class="icon-cog"></i>
+	    Settings
+	</button>
+
+	<a class="pure-button" href="#">
+	    <i class="icon-shopping-cart icon-large"></i>
+	    Checkout
+	</a>
+
 </body>
 </html>

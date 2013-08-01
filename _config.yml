@@ -23,7 +23,7 @@ links:
  # - name:         Log
  # url:          http://blog.oculus.im
   - name:         Contact
-    url:          mailto:i@oculus.im
+    url:          /contact.html
   #- name:         RSS
   #  url:          /RSS.xml
 

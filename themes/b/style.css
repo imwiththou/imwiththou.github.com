@@ -120,6 +120,7 @@ caption { padding-bottom:.6em; }
    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    vertical-align: middle;
    }
+   
 .button:hover {
 	text-transform: capitalize;
 	color: #3a96ff;
@@ -128,6 +129,7 @@ caption { padding-bottom:.6em; }
    border: 1px solid #3a96ff;
    background: transparent;
    }
+   
 .button:active {
 	text-transform: capitalize;
 	color: #3a96ff;
@@ -152,8 +154,10 @@ nav {
     nav a:last-child {
       margin-right: 0; }
 	  
+	  
+
 /* global header */
-#globalheader { position:relative; width:980px; height:58px; margin:18px auto 0; z-index:999; font-size:12px; _zoom:1; }
+/*#globalheader { position:relative; width:980px; height:58px; margin:18px auto 0; z-index:999; font-size:12px; _zoom:1; }
 #globalheader { height:36px; }
 #globalheader h1 { display:inline; }
 #globalheader h1 a { position:absolute; top:-3px; left:7px; width:131px; height:27px; text-indent:-9999px; outline:none; -moz-outline:none; background:url(https://devimages.apple.com.edgekey.net/assets/elements/header/developer.png) no-repeat 0 0; }
@@ -181,7 +185,8 @@ nav {
 #globalheader ul#gh-nav li.menu.active a span { }
 #globalheader ul#gh-nav li.menu.active a b { background:#c0cad4 url(https://devimages.apple.com.edgekey.net/assets/elements/header/nav_menu_caratactive.gif) no-repeat 100% 0; }
 #globalheader ul#gh-nav li.menu.active a:hover { color:#000; }
-#globalheader ul#gh-nav li.menu.active ul { display:block; }
+#globalheader ul#gh-nav li.menu.active ul { display:block; }*/
+
 
 /* active global header states */
 .gh-nav-technologies-active #globalheader ul#gh-nav #gh-nav-technologies a,

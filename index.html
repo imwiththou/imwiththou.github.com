@@ -15,7 +15,7 @@ layout: default
 <section class="pagination">
   <a href="/{{ paginator.previous_page_path }}" class="previous-page{% unless paginator.previous_page %} invisible{% endunless %}">上一頁</a>
   {{ paginator.page }} of {{ paginator.total_pages }}
-  <a href="/{{ paginator.next_page_path }}" class="next-page{% unless paginator.next_page %} invisible{% endunless %}">下一頁</a>
+  <a href="http://cn.oculus.im/{{ paginator.next_page_path }}" class="next-page{% unless paginator.next_page %} invisible{% endunless %}">下一頁</a>
 </section>
 <aside>
   <img src="{{ site.owner.avatar }}" alt="{{ site.owner.name }}" class="avatar" />

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<ul class="posts">
+  {% for post in paginator.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        <h2>{{ post.title }}</h2>
+        <time>{{ post.date | date_to_string }}</time>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+<section class="pagination">
+  <a href="/{{ paginator.previous_page_path }}" class="previous-page{% unless paginator.previous_page %} invisible{% endunless %}">上一頁</a>
+  {{ paginator.page }} of {{ paginator.total_pages }}
+  <a href="http://cn.oculus.im/{{ paginator.next_page_path }}" class="next-page{% unless paginator.next_page %} invisible{% endunless %}">下一頁</a>
+</section>
+<aside>
+  <img src="{{ site.owner.avatar }}" alt="{{ site.owner.name }}" class="avatar" />
+  <strong><a href="http://cn.oculus.im/RSS.xml">{{ site.owner.name }}</a></strong>
+  <p>{{ site.owner.bio }}</p>
+  
+</aside>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17275476-4', 'oculus.im');
+  ga('send', 'pageview');
+
+</script>

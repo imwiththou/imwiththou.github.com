@@ -47,6 +47,7 @@ input{ -webkit-appearance: none; }
 
 .text-white{
 	color: #fff;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .hr{
@@ -64,7 +65,7 @@ input{ -webkit-appearance: none; }
 	border: 7px double #222;
 	background-color: #222;
 	cursor: pointer;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat'
 	font-size: 12px;
 	text-align: center;
 	display: inline-block;
@@ -224,8 +225,8 @@ input{ -webkit-appearance: none; }
 #about-text{
 	text-align: left;
 	margin-bottom: 44px;
-	font-family: 'GFS Didot';
-	font-size: 1.7em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 1.5em;
 }
 
 #about .btn{

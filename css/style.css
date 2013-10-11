@@ -244,6 +244,7 @@ input{ -webkit-appearance: none; }
 
 .service{
 	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	padding-top: 22px;
 	padding-bottom: 22px;
 	transition: all .2s ease;
@@ -317,7 +318,7 @@ input{ -webkit-appearance: none; }
 #testimonials{
 	padding-top: 88px;
 	padding-bottom: 88px;
-	background: url('../img/t1.jpg');
+	background: url('../img/blur/alt4.jpg');
 	color: #fff;
 	background-size: cover;
 	background-attachment: fixed;

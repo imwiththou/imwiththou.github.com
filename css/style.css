@@ -237,7 +237,7 @@ input{ -webkit-appearance: none; }
 /********************* INTERESTS ********************/
 
 #services{
-	background-color: #eed;
+	background-color: #F7E7CE;
 }
 
 #services .callout-wrapper{ margin-top: 44px; }
@@ -513,7 +513,7 @@ input{ -webkit-appearance: none; }
 }
 
 #contact-content{
-	background-color: rgba(238,237,221,0.9);
+	background-color: rgba(247, 231, 206 ,0.9);
 	position: relative;
 	z-index: 1;
 	padding-top: 88px;

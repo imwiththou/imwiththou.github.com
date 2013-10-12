@@ -7,14 +7,14 @@ input{ -webkit-appearance: none; }
 .page-header{ text-align: center; margin-bottom: 44px;}
 .page-header .icon{ font-size: 24px; }
 .page-header h4{ margin-top: 11px; }
-.page-header .hr{ background-color: #222; margin-top: 44px; margin-bottom: 44px; }
+.page-header .hr{ background-color: #212121; margin-top: 44px; margin-bottom: 44px; }
 .callout-wrapper{ background-color: #222; padding: 15px; }
 .callout{ background-color: #222; padding: 25px; border: 2px solid #fff; overflow: hidden; }
 .callout h5{ margin-bottom: 11px; overflow: hidden; }
 .callout p{ margin-bottom: 0px; }
 .callout .icon{ font-size: 72px; }
 #client-divider{
-	background: url('../img/t1.jpg');
+	background: url('../img/previous/t1.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -115,7 +115,7 @@ input{ -webkit-appearance: none; }
 	width: 100%;
 	/*-webkit-filter: blur(5px);
 	filter: blur(5px);*/
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.9);
 	max-height: 80px;
 	min-height: 80px;
 	z-index: 200;

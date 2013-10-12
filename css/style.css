@@ -385,7 +385,7 @@ input{ -webkit-appearance: none; }
 	position: relative;
 	background-color: #222;
 	transform: rotate(45deg);
-	-ms-transform: rotate(45deg); /* IE 9 */
+	-ms-transform: rotate(45deg); /* for IE 9, damn out of historical IE. */
 	-webkit-transform: rotate(45deg); /* Safari and Chrome */
 	margin: 0px auto;
 	cursor: pointer;

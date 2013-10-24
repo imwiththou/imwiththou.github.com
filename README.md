@@ -9,7 +9,7 @@ A totally redesigned Vagus site is not alive at <a href="http://beta.biestephen.
 ### What is Vagus?
 
 <quote>
-  *Vagus*
+  **Vagus**
   
   (/ˈveɪɡəs/ vay-gəs)
   

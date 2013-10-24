@@ -9,7 +9,11 @@ A totally redesigned Vagus site is not alive at <a href="http://beta.biestephen.
 ### What is Vagus?
 
 <quote>
-  Vagus (/ˈveɪɡəs/ vay-gəs), also called pneumogastric nerve, is one of the 12 cranial nerves. 
+  *Vagus*
+  
+  (/ˈveɪɡəs/ vay-gəs)
+  
+  Also known as pneumogastric nerve, is one of the 12 cranial nerves. 
 </quote>
 
 Vagus can be interpreted as "walking without goals, wondering" as well.

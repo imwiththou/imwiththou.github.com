@@ -1,7 +1,6 @@
 Vagus
 ===
 
-***
 
 A totally redesigned Vagus site is not alive at <a href="http://beta.biestephen.com/">here</a>. The site is still in beta mode. After all bugs being cleared away the URL will be updated to http://biestephen.com/ instead.
 

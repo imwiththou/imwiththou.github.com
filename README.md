@@ -2,7 +2,9 @@ Vagus
 ===
 
 
-A totally redesigned Vagus site is not alive at <a href="http://beta.biestephen.com/">here</a>. The site is still in beta mode. After all bugs being cleared away the URL will be updated to http://biestephen.com/ instead.
+A totally redesigned Vagus site is still not alive but you can access at <a href="http://beta.biestephen.com/">here</a> for some teaser peek when it's under beta mode. After all bugs being cleared away the URL will be updated to http://biestephen.com/ instead.
+
+**Open-Source!** All content that you can dig in this site is open-sourced, which can be used to match any of your personal purposes. 
 
 
 ### What is Vagus?

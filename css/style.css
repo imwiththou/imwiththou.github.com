@@ -47,7 +47,7 @@ input{ -webkit-appearance: none; }
 
 .text-white{
 	color: #fff;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .hr{
@@ -65,8 +65,7 @@ input{ -webkit-appearance: none; }
 	border: 7px double #222;
 	background-color: #222;
 	cursor: pointer;
-	font-family: 'Montserrat'
-	font-size: 12px;
+	font-family: 'PT Sans', sans-serif;	font-size: 12px;
 	text-align: center;
 	display: inline-block;
 	overflow: hidden;
@@ -225,7 +224,7 @@ input{ -webkit-appearance: none; }
 #about-text{
 	text-align: left;
 	margin-bottom: 44px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 1.5em;
 }
 
@@ -244,7 +243,7 @@ input{ -webkit-appearance: none; }
 
 .service{
 	text-align: center;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	padding-top: 22px;
 	padding-bottom: 22px;
 	transition: all .2s ease;
@@ -322,8 +321,8 @@ input{ -webkit-appearance: none; }
 	color: #fff;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family:'GFS Didot';
-}
+	font-family: 'PT Sans', sans-serif;
+	}
 
 #testimonials-slider{
 	position: relative;
@@ -561,7 +560,7 @@ input{ -webkit-appearance: none; }
 }
 
 #copy-text{
-	font-family: 'Montserrat';
+	font-family: 'PT Sans', sans-serif;
 	letter-spacing: 3px;
 	margin-right: 3px;
 	text-transform: uppercase;

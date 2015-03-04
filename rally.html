@@ -1,278 +1,407 @@
 <p><head>
-<link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet"></link>
-<!--<style>
-* {
-    font-family: Avenir, Helvetica Neue, Helvetica, Arial, freesans,clean,sans-serif;
+<!--<link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet"></link>-->
+<style>
+html,body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,code,em,img,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,table,tbody,tfoot,thead,tr,th,td {
+    font-family:Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border:0;
+    font-size:10pt;
+    outline:0;
+    margin:0;
+    padding:0;
+
+
+    /*this elimitantes downscaling caused by long unbreakable character sequences*/
+    overflow: hidden;
+    text-overflow:ellipsis;
 }
 
-html,body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,code,em,img,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,table,tbody,tfoot,thead,tr,th,td {
-    border: 0;
-    /* font-size: <fontsize>px; dynamic variable set in application preferences*/
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    outline: 0;
+* {
+	background: transparent !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
 }
 
 body {
-    /*-webkit-font-smoothing: antialiased;*/
-    background-color: rgba(255,255,255,0.0);
-    padding-top: 12px;
-    padding-right: 30px; /* padding-right: 0; (set to 30 for example render) */
-    padding-bottom: 9px;
-    padding-left: 30px; /* padding-left: 0; (set to 30 for example render) */
-    color: #333;
+    /*border:1px solid #c9c9c9;*/
+    margin:0;
+    padding:0;
 }
 
-/* Highlighed Text Color */
-
-::selection {background: #68C6DF; color:#FFFFFF;}
-
-/* EMBEDS */
-img {
-    display: block;
-    padding: 10px 0;
-    max-width: 100%;
+.container {
+    width:300pt;
+    /*border:1px solid #a4d594;*/
+    margin:18pt auto 2pt;
 }
 
-.video_embed {
-    display: block;
-    padding: 10px 0;
-    height: <videoheight>px; /* dynamic variable set by application */
-    width: <screenwidth>px; /* dynamic variable set by application */
-}
-
-/* STYLES */
 em {
-    color: #373737;
+    color:#373737;
 }
 
 strong {
-    color: #252525;
+    color:#252525;
 }
 
 a {
-    color: #47B1C7;
-    text-decoration: none;
+    color:#399FC3;
+    text-decoration:none;
+    font-weight:700;
+    /*this elimitantes downscaling caused by long links*/
+    overflow: hidden;
+    text-overflow:ellipsis;
+    
+}
+
+
+a:link:after, a:visited:after { 
+	color:#999;
+    font-weight: 400;
+    font-style: italic;
+    content:" " attr(href) " "; 
+    font-size: 84%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+/*
+ * Don't show links for images, or javascript/internal links
+ */
+     
+a[href^="javascript:"]:after,
+a[href^="dayone:"]:after,
+a[href^="tel:"]:after,
+a[href^="mailto:"]:after,
+a[href^="twitter:"]:after,
+a[href^="#"]:after {
+	content: "";
+}
+
+
+/* make list bullets visible (at the cost of risk of scale being screwed up by overflow in lists) */
+li {
+    overflow:visible;
 }
 
 a:hover {
-    color: #EA4C89;
+    color:#EA4C89;
 }
 
 hr {
-    border: 0;
-    border-top: 1px solid #eaeaea;
-    display: block;
-    height: 1px;
-    margin: 1em 0;
-    padding: 0;
+    border:0;
+    border-top:1pt solid #eaeaea;
+    display:block;
+    height:1px;
+    margin:1em 0;
+    padding:0;
 }
 
-
-/* HEADERS */
-
+h1,h2,h3 {
+    margin:15pt 0 6pt;
+}
 
 h1 {
-    font-size: 1.2em;
-    font-weight: 700;
     line-height: 1.3;
-    margin: 10px 0 7px;
+    font-size:17pt;
+    font-weight:700;
 }
 
 h1.title {
-    font-size: 1.2em;
-    font-weight: 700;
-    color: #26748F;
-    line-height: 1.3;
-    margin: 11px 0 16px;
+	margin:8pt 0 6pt;
 }
 
 h2 {
-    color: #333;
-    font-size: 1em;
-    font-weight: 700;
     line-height: 1.2;
-    margin: 22px 0 7px;
+    font-size:14pt;
+    font-weight:700;
 }
 
-h3,h4,h5,h6 {
-    line-height: 1.1;
-    margin: 24px 0 5px;
+h2.month {
+    border: 0;
+    padding-bottom:5pt;
+    font-weight:500;
+    
 }
 
 h3 {
-    color: #EA4C89;
-    font-size: .85em;
-    font-weight: 700;
-    text-transform: uppercase;
+    line-height: 1.2;
+    font-size:12pt;
+    font-weight:700;
+    padding-bottom:3pt;
+    border-bottom:1pt solid #ddd;
+}
+
+
+
+h4,h5,h6 {
+    line-height:1.1;
+    margin:18px 0 6px;
 }
 
 h4 {
-    color: #26748F;
-    font-size: 1.1em;
-    font-weight: 700;
-    padding-bottom: 3px;
-    border-bottom: 1px solid #ddd;
+    font-size:9pt;
+    font-weight:700;
+    text-transform:uppercase;
 }
 
 h5 {
-    font-size: 1em;
-    font-weight: 700;
-    color: #26748F;
+    font-size:10pt;
+    font-weight:700;
+    color:#444;
 }
 
 h6 {
-    color: #415F6C;
-    font-size: .85em;
-    font-weight: 700;
-    font-variant: italic;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 3px;
-    text-transform: uppercase;
+    color:#666;
+    font-size:10pt;
+    font-weight:700;
+    font-variant:italic;
+    border-bottom:1px solid #ddd;
+    padding-bottom:2pt;
 }
-
 
 dl,ol,ul,p,blockquote,pre {
-    margin-top: 12px;
-    margin-bottom: 18px;
+    margin-top:7pt;
+    margin-bottom:7pt;
 }
 
+img.header {
+    max-width:340pt;
+    margin-left: -20pt;
+    margin-top:8pt;
+    margin-bottom:9pt;
+    display:block;
+}
 
+img {
+    max-width:300pt;
+    margin-top:8pt;
+    margin-bottom:9pt;
+    display:block;
+}
 
-/* LISTS */
+.video_embed {
+    padding:10px 0;
+}
 
 ol,ul {
-    margin: .8em 1em;
-    padding-left: .8em;
-}
-
-ol li {
-    margin-left: 1em;
-    margin-bottom: .3em;
-}
-
-ul li {
-    margin-left: 1em;
-    margin-bottom: .3em;
+    padding-left:12pt;
+    margin:8pt 0;
 }
 
 ol ol,ol ul,ul ol,ul ul {
-    margin: .3em 0;
+    margin:3pt 0;
 }
 
-.footnotes ol li {
-    margin-bottom: 10px;
-    margin-left: 16px;
-    font-weight: 800;
-    font-size: .9em;
+/* see usage for explanation of purpose */
+.nobreak {
+    page-break-inside:avoid;
 }
 
-.footnotes ol li p {
-    font-weight: 400;
-    font-size: 1em;
+/* see usage for explanation of purpose */
+.nobreak-header {
+    page-break-inside:avoid;
+    padding-bottom: 20pt;
 }
 
-/* code */
-/* preformatted */
-blockquote {
-    border-left: solid .4em #ddd;
-    padding-left: 10px;
-    quotes: none;
+/* see usage for explanation of purpose */
+.entry-content {
+    margin-top: -20pt;
 }
 
-pre,code,tt {
-    font: 1em 'Bitstream Vera Sans Mono', Courier New, monospace;
+/* Compensate for that margins are not collapsing due to entry-content div wrapping */
+.entry-content *:first-child {
+    margin-top:0pt;
+}
+
+.date {
+    font-size: 8pt;
+    color:#399FC3;
+    font-weight:700;
+    text-transform:uppercase;
+    border-top:1pt solid #ddd;
+    padding-top: 8pt;
+}
+
+.loc {
+    font-size: 7pt;
+    font-style:italic;
+    font-weight:700;
+    color:#399FC3;
+    margin: 5pt 0 4pt;
+    text-transform:uppercase;
+}
+
+.weather {
+    font-size: 7pt;
+    font-style:italic;
+    font-weight:700;
+    color:#399FC3;
+    margin: 5pt 0;
+    text-transform:uppercase;
+}
+
+.entry-bottomline {
+    margin: 0;
+    padding: 0;
+    border-top:1pt solid #dbdbdb;
+}
+
+.entry-meta {
+    margin: 0;
+    padding: 4pt 0 4pt 1pt;
+    border-bottom:1pt solid #dbdbdb;
+}
+
+.entry-footer {
+    margin: 0 0 25pt;
+}
+
+
+
+/* Removes unnecessary blank space after the last border line.
+ * This blank space causes empty pages to be added to the PDF
+ * in some cases.
+ */
+whole-entry:last-of-type .entry-footer {
+    padding: 0 0 0pt;
+}
+
+
+
+/* Code / Preformatted */
+
+blockquote { 
+    border-left: solid 4pt #ddd; 
+    padding-left: 7pt; 
+    quotes: none; 
+}
+
+pre, code, tt {
+    font: 9pt 'Bitstream Vera Sans Mono', Courier New, monospace;
 }
 
 pre {
-    background-color: #f8f8f8;
-    border: #E8E8E8 1px solid;
-    color: #444;
+    background-color: #FFF;
+    border: #E8E8E8 1pt solid;
+    color: black;
     display: block;
-    margin: 12px 0;
+    margin: 9pt 0;
     overflow: auto;
-    padding: 6px 10px;
+    padding: 3pt 7pt;
     white-space: pre-wrap;
-    word-wrap: break-word;
-    cursor: text;
-    max-width: 100%;
-    overflow: auto;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
+    word-wrap:break-word;
+    cursor:text;
+    max-width:260pt;
+    overflow:auto;
+    border-radius:3pt;
+    -webkit-border-radius:3pt;
 }
-
-code {
+code { 
     color: #2c92b0;
     border: 1px solid #E8E8E8;
-    font-size: .95em;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
+    font-size: 9pt;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
 }
 
 pre code {
-    font-size: .95em;
-    padding: 0 !important;
-    background-color: #F6F6F6;
-    border: none !important;
-    overflow: visible;
+    font-size: 9pt;
+    padding: 0!important;
+    background-color: #FFF;
+    border: none!important;
+    overflow:visible;
 }
 
-/* tables */
+/* Tables */
+
 table {
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    border-bottom: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-spacing: 0;
+  width:100%;
+  border-collapse:collapse;
+  display: table-header-group;
 }
 
-table th {
-    padding: 3px 10px;
-    background-color: #eee;
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #ddd;
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border-bottom:1px solid #e5e5e5;
 }
 
-table tr {
+dt {
+  color:#444;
+  font-weight:700;
 }
 
-table td {
-    padding: 3px 10px;
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #ddd;
+th {
+  color:#444;
 }
 
-/* sub */
+
+/* Footnotes */
+
+
+.footnotes ol li {
+    margin-bottom:15px;
+    margin-left:.25em;
+    font-weight:800;
+    font-size:.85em;
+    overflow:visible;
+}
+
+.footnotes ol li p {
+    font-weight:400;
+    font-size:1em;
+    overflow:visible;
+}
+
 sup,sub,a.footnote {
-    font-size: 1.4ex;
-    height: 0;
-    line-height: 1;
-    vertical-align: super;
-    position: relative;
-    font-weight: 800;
+    font-size:1.4ex;
+    height:0;
+    line-height:1;
+    vertical-align:super;
+    position:relative;
+    overflow:visible;
 }
 
 sub {
-    vertical-align: sub;
-    top: -1px;
+    vertical-align:sub;
+    top:-1px;
 }
 
-small {
-    font-size: 85%;
+ol li,ul li {
+    margin-left:.5em;
+    margin-bottom:.3em;
 }
 
-mark {
-    background: #ff0;
-    color: #000;
-    font-style: italic;
-    font-weight: 600;
+/*
+ * Footer / 
+ */
+
+.footer {
+	margin: 20pt 0 0;
+}
+.footer .author {
+	font-weight: 700;
+}
+.footer p.dayone {
+	color:#47B1C7;
+	font-size: 7pt;
+}
+.footer .blue {
+	color:#47B1C7;
 }
 
-/* Pygment - Here for evaluation as we continue to investigate support for code highlighting */
+.footer p{
+	font-size: 7pt;
+	font-style: italic;
+	text-align: center;
+	margin: 4pt 0;
+}
+.footer p.stats{
+	font-size: 6pt;
+	text-align: center;
+}
 
+
+/* Pygment */
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
@@ -342,9 +471,8 @@ mark {
 .type-csharp .highlight .nn { color: #000000 }
 .type-csharp .highlight .s { color: #A31515 }
 .type-csharp .highlight .sc { color: #A31515 }
-  
 </style>
--->
+
 <title>Trainee Induction Rally Record</title>
 
 </head></p>

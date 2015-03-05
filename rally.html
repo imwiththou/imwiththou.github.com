@@ -1,6 +1,13 @@
 <head>
 <link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet"></link>
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+<script>$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
 
 <!--
 <style>
@@ -490,7 +497,7 @@ Intern Rally Result
 </blockquote>
 <p>By the time when most of info is collected, we will organise an info exchange meeting.</p>
 <p>Please comment if you have any questions, in this document or in the work chat section. Hash-tag or '@' topics/persons in particular.</p>
-<h2>Architectural</h2>h2
+<h2>Architectural</h2>
 <hr>
 <h3>Who is in charge?</h3>
 <p>Mr Felix Lim Jih Cheon</p>
@@ -1019,7 +1026,7 @@ It is a software like CAD however it can be presented in 3D.</p>
 <p><strong>Administrator</strong>: Dual function and someone who can coordinate project engineering tasks</p>
 <pre><code>
 <br/>
-date: 5 Mar 2015
-version 0.2
+update: 5 Mar 2015
+version: 0.3
 &copy;Stephen 2015
-<p></code></pre></p>
+</code></pre>
